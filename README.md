@@ -33,4 +33,6 @@ I successfully set up a resource group in the Azure Portal by following the proc
 - Selected the subscription for the resource group, named it, and selected a region.
 - Make sure once you select "Review and create" to actually review the information! While it doesn't take too much time to go back and create a new resource group, you'll want to check for any typos in the name or if the wrong region was selected. When we work out of Azure CLI later, this becomes even more important, as you could cause other scripts to fail if things are named incorrectly or are in an inappropriate region.
 - Click "Create" once you are done reviewing.
+
+- View screenshot here.
 https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day03.PNG 
