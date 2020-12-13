@@ -1,5 +1,7 @@
 # Bertelsmann-Scholarship-2020-2021-Cloud-Track
 
+3.5-Months-of-Bertelsmann-Scholarship-Cloud-Track
+
 # Day 1 of #60DaysOfUdacity (Friday, December 11th, 2020)
 
 I completed the Lesson 1 in the cloud track "Introduction to Microsoft Azure Development". Basics and history of cloud computing learnt.My tools and environment is set up for configuration and deployment.
