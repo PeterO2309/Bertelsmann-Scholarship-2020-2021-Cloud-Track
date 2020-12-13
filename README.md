@@ -1,6 +1,6 @@
 # Bertelsmann-Scholarship-2020-2021-Cloud-Track
 
-#Day 1 of #60DaysOfUdacity
+# Day 1 of #60DaysOfUdacity
 
 I completed the Lesson 1 in the cloud track "Introduction to Microsoft Azure Development". Basics and history of cloud computing learnt.My tools and environment is set up for configuration and deployment.
 - Signed up for an Azure free account https://azure.microsoft.com/en-us/free/ 
