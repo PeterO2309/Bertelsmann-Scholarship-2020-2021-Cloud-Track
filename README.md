@@ -40,3 +40,15 @@ https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob
 
 - Dashboard showing the created resource groups.
 https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day03_3.PNG
+
+
+# Day 4 of #60DaysOfUdacity (Monday, December 14th, 2020)
+Created a Resource Group using the Azure CLI via the command prompt by doing the following steps.
+
+- Typed  "az login" on the terminal to login to the Azure CLI.
+- Used "az account list-locations -o table" to see the list of all locations which was listed in a table format. 
+- Used the Azure CLI command "az group create" and passed in two flags:
+    resource group --name
+    --location which is the same as the "region" field on the Azure portal.
+- Therefore, created my resource group in the West US 2 region with the name "resource-group-west-using-cli":
+- The command "az group create --name resource-group-west-using-cli --location westus2"
