@@ -53,6 +53,8 @@ Created a Resource Group using the Azure CLI via the command prompt by doing the
 - Therefore, created my resource group in the West US 2 region with the name "resource-group-west-using-cli":
 - The command "az group create --name resource-group-west-using-cli --location westus2"
 - Viewed all created resource groups using both portal and cli via https://portal.azure.com/#blade/HubsExtension/BrowseResourceGroups. See screenshot via https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day04_1.PNG
+https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day04_3.PNG
+https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day04_4.PNG
 
 
 - Learnt some of the differences between Virtual Machines(IaaS) and App Services(PaaS). Also, the benefits and disadvantages of each of them. 
