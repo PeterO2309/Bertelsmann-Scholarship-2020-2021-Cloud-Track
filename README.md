@@ -37,3 +37,6 @@ I successfully set up a resource group in the Azure Portal by following the proc
 - View screenshot here.
 https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day03.PNG 
 https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day03_2.PNG
+
+- Dashboard showing the created resource groups.
+https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day03_3.PNG
