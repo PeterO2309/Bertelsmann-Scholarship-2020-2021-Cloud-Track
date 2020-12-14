@@ -44,7 +44,7 @@ https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob
 
 # Day 4 of #60DaysOfUdacity (Monday, December 14th, 2020)
 Created a Resource Group using the Azure CLI via the command prompt by doing the following steps.
-- Installed Azure CLI on Windows using this steps https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
+- Installed Azure CLI on Windows using this steps https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli and the CLI documentation https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest&WT.mc_id=udacity_learn-wwl
 - Typed  "az login" on the terminal to login to the Azure CLI.
 - Used "az account list-locations -o table" to see the list of all locations which was listed in a table format. 
 - Used the Azure CLI command "az group create" and passed in two flags:
