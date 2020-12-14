@@ -52,4 +52,4 @@ Created a Resource Group using the Azure CLI via the command prompt by doing the
     --location which is the same as the "region" field on the Azure portal.
 - Therefore, created my resource group in the West US 2 region with the name "resource-group-west-using-cli":
 - The command "az group create --name resource-group-west-using-cli --location westus2"
-- Viewed all created resource groups using both portal and cli via https://portal.azure.com/#blade/HubsExtension/BrowseResourceGroups. See screen via 
+- Viewed all created resource groups using both portal and cli via https://portal.azure.com/#blade/HubsExtension/BrowseResourceGroups. See screen via https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day04_1.PNG
