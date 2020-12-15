@@ -68,6 +68,7 @@ Created a Linux Virtual Machine and deployed it on Azure using the following ste
 3. Click on "Virtual Machine"
 4. Create a Linux VM with the following details:
 
+```markdown
 - Subscription: Used my default subscription.
 - Resource Group: "hello-world-rg"
 - VM Name: "linux-vm-west"
@@ -82,5 +83,6 @@ Created a Linux Virtual Machine and deployed it on Azure using the following ste
 - Inbound Port Rules: "Allow Select Ports" and make sure from the drop-down menu, 22 and 80 are selected.
 - Clicked on "Review create", then "create". 
 - Virtual Machine is successfully deployed. 
+```
 
 
