@@ -85,4 +85,7 @@ Created a Linux Virtual Machine and deployed it on Azure using the following ste
 - Virtual Machine is successfully deployed. 
 ```
 
+5. Screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day05_1.PNG
+https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day05_2.PNG
+
 
