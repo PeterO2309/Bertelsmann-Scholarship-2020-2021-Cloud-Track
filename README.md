@@ -58,3 +58,29 @@ https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob
 
 
 - Learnt some of the differences between Virtual Machines(IaaS) and App Services(PaaS). Also, the benefits and disadvantages of each of them. 
+
+
+# Day 5 of #60DaysOfUdacity (Tuesday, December 15th, 2020)
+Created a Linux Virtual Machine and deployed it on Azure using the following steps.
+
+1. Go to the homepage, click "Create a resource"
+2. Click on "Compute" in the left menu
+3. Click on "Virtual Machine"
+4. Create a Linux VM with the following details:
+
+- Subscription: Used my default subscription.
+- Resource Group: "hello-world-rg"
+- VM Name: "linux-vm-west"
+- Region: West Europe
+- Availability Options: Used default option of "No infrastructure redundancy required".
+- Image: Used the latest version of Ubuntun Server, 18.04 LTS
+- Azure Spot instance: No
+- Size: Clicked on "Select Size" and select "Standard B1ls"
+- Authentication type: Password
+- Username: Used "udacityadmin"
+- Password: Used "Udacityadmin@123"
+- Inbound Port Rules: "Allow Select Ports" and make sure from the drop-down menu, 22 and 80 are selected.
+- Clicked on "Review create", then "create". 
+- Virtual Machine is successfully deployed. 
+
+
