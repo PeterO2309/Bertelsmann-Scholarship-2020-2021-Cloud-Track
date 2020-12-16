@@ -89,3 +89,9 @@ Created a Linux Virtual Machine and deployed it on Azure using the following ste
 https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day05_2.PNG
 
 
+# Day 6 of #60DaysOfUdacity (Wednesday, December 16th, 2020)
+D6:  After watching the video in Lesson 2, Lecture 9, I tried severally to connect to the created VM, following the steps highlighted, still no success. I copied the basic flask app from my local machine to the VM by using the command "scp -r <SOURCE-DIR> [ADMIN-NAME]@[PUBLIC-IP]:<TARGET-DIR>"  i.e "scp -r ./web udacityadmin@40.68.58.33:/home/udacityadmin". 
+
+After the completion, connected to the VM using "ssh [ADMIN-NAME]@[PUBLIC-IP]", installed Python Virtual Environment and NGNIX to use as a reverse proxy. 
+
+However, still having issues with configuring Nginx to redirect all incoming connections on port 80 to our app that is running on localhost port 3000
