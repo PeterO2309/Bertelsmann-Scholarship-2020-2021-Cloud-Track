@@ -119,7 +119,7 @@ D7: I finally deployed the flask template app to the VM. I used the admin userna
         - Unlink the default site using ```sudo unlink /etc/nginx/sites-enabled/default```
         - Create a new file reverse-proxy.conf in the /etc/nginx/sites-available— ```sudo vim reverse-proxy.conf```
         - Add the following code to this file:
-         ```markdown
+     ```markdown
         server {
             listen 80;
             location / {
