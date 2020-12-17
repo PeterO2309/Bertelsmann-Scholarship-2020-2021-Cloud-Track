@@ -145,5 +145,6 @@ D7: I finally deployed the flask template app to the VM. I used the admin userna
  9. Upgrade pip in our virtual environment and then Install dependencies ```pip install --upgrade pip``` ```pip install -r requirements.txt```
 10. Run the app ```python application.py```
 11. In the web browser, visit the public IP address of the VM (51.143.34.63) and you should see the application. Type "exit" to disconnect from the VM.
+12. See screenshots: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day07_1_VM_deployed.PNG https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day07_6_connected_to_VM_via_external_source.PNG https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day07_12.PNG
     
     
