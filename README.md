@@ -95,3 +95,54 @@ D6:  After watching the video in Lesson 2, Lecture 9, I tried severally to conne
 After the completion, connected to the VM using "ssh [ADMIN-NAME]@[PUBLIC-IP]", installed Python Virtual Environment and NGNIX to use as a reverse proxy. 
 
 However, still having issues with configuring Nginx to redirect all incoming connections on port 80 to our app that is running on localhost port 3000
+
+# Day 7 of #60DaysOfUdacity (Wednesday, December 17th, 2020)
+D7: I finally deployed the flask template app to the VM. I used the admin username "udacityadmin" i set when creating the VM and also the public IP address of my VM (51.143.34.63). Then used the following command to grab the IPs addresses for the particular VM from the CLI— "az vm list-ip-addresses -g <RESOURCE-GROUP> -n <VIRTUAL-MACHINE-NAME>" or use Azure portal.
+    These are the steps to copy the basic Flask app from my local machine to the VM.
+    1. Used the secure copy utility. NOTE: The first time you try connecting to the VM, you'll see a message, answer 'yes' to permanently add the IP address to the list of known hosts.
+    ```markdown
+    scp -r ./web udacityadmin@51.143.34.63:/home/udacityadmin
+    ```
+    2. After the files have been copied to the VM, connect to the VM using—ssh [ADMIN-NAME]@[PUBLIC-IP]
+     ```markdown
+    ssh udacityadmin@51.143.34.63
+    ```
+    3. We can use ```ls``` to see the web directory we just uploaded.
+    4. Python 3 is already installed on the VM. Install Python Virtual Environment and NGNIX to use as a reverse proxy
+     ```markdown
+    sudo apt-get -y update && sudo apt-get -y install nginx python3-venv
+    ```
+    5. Before we run the app, we have to configure Nginx to redirect all incoming connections on port 80 to our app that is running on localhost port 3000.
+        - By default, Nginx has a default page that is displayed. If you visit the public IP address in your browser, you should see this page rendered.
+        - Navigate to the /etc/nginx/sites-available directory using this command — ```cd /etc/nginx/sites-available```
+        - Unlink the default site using ```sudo unlink /etc/nginx/sites-enabled/default```
+        - Create a new file reverse-proxy.conf in the /etc/nginx/sites-available— ```sudo vim reverse-proxy.conf```
+        - Add the following code to this file:
+         ```markdown
+        server {
+            listen 80;
+            location / {
+                proxy_pass http://localhost:3000;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection keep-alive;
+                proxy_set_header Host $host;
+                proxy_cache_bypass $http_upgrade;
+            }
+        }
+    ```
+        - Activate the directories by creating a sym link to the /sites-enabled directory 
+    ```markdown
+    sudo ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enabled/reverse-proxy.conf
+    ```
+        - Restart nginx so the changes take effect. ```sudo service nginx restart```
+    
+    
+   6. cd to ```web``
+   7. Create venv ```python3 -m venv venv```
+   8. Activate the env ```source venv/bin/activate```
+   9. Upgrade pip in our virtual environment and then Install dependencies ```pip install --upgrade pip``` ```pip install -r requirements.txt```
+  10. Run the app ```python application.py```
+  11. In the web browser, visit the public IP address of the VM (51.143.34.63) and you should see the application. Type "exit" to disconnect from the VM
+    
+    
