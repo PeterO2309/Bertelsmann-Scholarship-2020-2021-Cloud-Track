@@ -97,7 +97,7 @@ After the completion, connected to the VM using "ssh [ADMIN-NAME]@[PUBLIC-IP]", 
 However, still having issues with configuring Nginx to redirect all incoming connections on port 80 to our app that is running on localhost port 3000
 
 # Day 7 of #60DaysOfUdacity (Wednesday, December 17th, 2020)
-D7: I finally deployed the flask template app to the VM. I used the admin username "udacityadmin" i set when creating the VM and also the public IP address of my VM (51.143.34.63). Then used the following command to grab the IPs addresses for the particular VM from the CLI— "az vm list-ip-addresses -g <RESOURCE-GROUP> -n <VIRTUAL-MACHINE-NAME>" or use Azure portal.
+D7: I finally deployed the flask template app to the VM. I used the admin username "udacityadmin" i set when creating the VM and also the public IP address of my VM (51.143.34.63). Then used the following command to grab the IPs addresses for the particular VM from the CLI— "az vm list-ip-addresses -g <RESOURCE-GROUP> -n <VIRTUAL-MACHINE-NAME>" or use Azure portal. I used GitBash CLI
     
    These are the steps to copy the basic Flask app from my local machine to the VM.
 1. Used the secure copy utility. NOTE: The first time you try connecting to the VM, you'll see a message, answer 'yes' to permanently add the IP address to the list of known hosts.
