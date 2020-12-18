@@ -181,7 +181,7 @@ az vm open-port --port 80 --resource-group resource-group-west --name linux-vm-w
 5. Upon success, a JSON response is displayed.
 
 
-CONNECTING TO THE VM
+# CONNECTING TO THE VM
 
 1. Use the following command to grab the IP address for the VM from the CLI. ```az vm list-ip-addresses -g resource-group-west -n linux-vm-west```
 2. Copy a basic Flask app from my local machine to the VM by using the secure copy utility. ```scp -r ./web udacityadmin@52.247.233.222:/home/udacityadmin```
@@ -214,7 +214,7 @@ CONNECTING TO THE VM
  - Restart nginx so the changes take effect. ```sudo service nginx restart```
     
     
- DEPLOYING THE APP TO THE VM
+ # DEPLOYING THE APP TO THE VM
  6. cd to ```web``
  7. Create venv ```python3 -m venv venv```
  8. Activate the env ```source venv/bin/activate```
