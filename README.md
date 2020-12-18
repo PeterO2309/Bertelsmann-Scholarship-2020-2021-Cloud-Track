@@ -96,7 +96,7 @@ After the completion, connected to the VM using "ssh [ADMIN-NAME]@[PUBLIC-IP]", 
 
 However, still having issues with configuring Nginx to redirect all incoming connections on port 80 to our app that is running on localhost port 3000
 
-# Day 7 of #60DaysOfUdacity (Wednesday, December 17th, 2020)
+# Day 7 of #60DaysOfUdacity (Thursday, December 17th, 2020)
 D7: I finally deployed the flask template app to the VM. I used the admin username "udacityadmin" i set when creating the VM and also the public IP address of my VM (51.143.34.63). Then used the following command to grab the IPs addresses for the particular VM from the CLI— "az vm list-ip-addresses -g <RESOURCE-GROUP> -n <VIRTUAL-MACHINE-NAME>" or use Azure portal. I used GitBash CLI
     
    These are the steps to copy the basic Flask app from my local machine to the VM.
@@ -147,4 +147,35 @@ D7: I finally deployed the flask template app to the VM. I used the admin userna
 11. In the web browser, visit the public IP address of the VM (51.143.34.63) and you should see the application. Type "exit" to disconnect from the VM.
 12. See screenshots: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day07_1_VM_deployed.PNG https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day07_6_connected_to_VM_via_external_source.PNG https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day07_12.PNG
     
-    
+
+# Day 8 of #60DaysOfUdacity (Friday, December 18th, 2020)
+Created a Linux VM using Azure CLI doing the following steps. 
+1. Login to Azure portal using ```az login```.
+2. Create our VM. 
+
+```markdown
+az vm create -n linux-vm-west -g resource-group-west --image UbuntuLTS --location westus2 --size Standard_B1ls --admin-username udacityadmin --generate-ssh-keys --verbose
+```
+
+Which is same as 
+
+```markdown
+az vm create \
+   --resource-group "resource-group-west" \
+   --name "linux-vm-west" \
+   --location "westus2" \
+   --image "UbuntuLTS" \
+   --size "Standard_B1ls" \
+   --admin-username "udacityadmin" \
+   --generate-ssh-keys \
+   --verbose
+```
+
+3. Upon success, a JSON response is displayed.
+4. open port 80 to allow outside traffic to our VM.
+
+```markdown
+az vm open-port --port 80 --resource-group resource-group-west --name linux-vm-west 
+```
+
+5. Upon success, a JSON response is displayed.
