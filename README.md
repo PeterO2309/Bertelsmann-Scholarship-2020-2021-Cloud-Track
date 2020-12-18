@@ -132,6 +132,7 @@ D7: I finally deployed the flask template app to the VM. I used the admin userna
             }
         }
     ```
+   -After inserting, click ```esc```, then ```shift + :```, then type ```wq!``` then press ```enter```
  - Activate the directories by creating a sym link to the /sites-enabled directory 
     ```markdown
     sudo ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enabled/reverse-proxy.conf
@@ -151,6 +152,7 @@ D7: I finally deployed the flask template app to the VM. I used the admin userna
 # Day 8 of #60DaysOfUdacity (Friday, December 18th, 2020)
 Created a Linux VM using Azure CLI doing the following steps. 
 1. Login to Azure portal using ```az login```.
+scnshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_01_login_to_azure.PNG 
 2. Create our VM. 
 
 ```markdown
@@ -170,6 +172,7 @@ az vm create \
    --generate-ssh-keys \
    --verbose
 ```
+screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_02_create_vm.PNG
 
 3. Upon success, a JSON response is displayed.
 4. open port 80 to allow outside traffic to our VM.
@@ -177,17 +180,28 @@ az vm create \
 ```markdown
 az vm open-port --port 80 --resource-group resource-group-west --name linux-vm-west 
 ```
+screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_03.PNG
 
 5. Upon success, a JSON response is displayed.
+6. VM appears on portal. 
+screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_06_created_vm_on_portal.PNG
 
 
 # CONNECTING TO THE VM
 
 1. Use the following command to grab the IP address for the VM from the CLI. ```az vm list-ip-addresses -g resource-group-west -n linux-vm-west```
+screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_08_get_ipaddress_of_vm.PNG
+
 2. Copy a basic Flask app from my local machine to the VM by using the secure copy utility. ```scp -r ./web udacityadmin@52.247.233.222:/home/udacityadmin```
+screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_09_copy%20a%20basic%20Flask%20app%20from%20my%20local%20machine%20to%20the%20VM.PNG
+
 3. Connect to the VM with ```ssh [username]@[IP Address]```. In this case, ```ssh udacityadmin@52.347.233.222```.
     Run ```ls``` to see the web directory we just uploaded.
+    screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_10_connect_to_vm.PNG 
+    
 4. Install Python Virtual Environment and NGNIX to use as a reverse proxy ```sudo apt-get -y update && sudo apt-get -y install nginx python3-venv```
+screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_11_%20install%20Python%20Virtual%20Environment%20and%20NGNIX%20to%20use%20as%20a%20reverse%20proxy.PNG
+
 5. Before we run the app, we have to configure Nginx to redirect all incoming connections on port 80 to our app that is running on localhost port 3000.
         - By default, Nginx has a default page that is displayed. If you visit the public IP address in your browser, you should see this page rendered.
         - Navigate to the /etc/nginx/sites-available directory using this command — ```cd /etc/nginx/sites-available```
@@ -207,17 +221,23 @@ az vm open-port --port 80 --resource-group resource-group-west --name linux-vm-w
             }
         }
     ```
+ -After inserting, click ```esc```, then ```shift + :```, then type ```wq!``` then press ```enter```
  - Activate the directories by creating a sym link to the /sites-enabled directory 
     ```markdown
     sudo ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enabled/reverse-proxy.conf
     ```
  - Restart nginx so the changes take effect. ```sudo service nginx restart```
+ 
+ screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_12_configure_nginx.PNG
+ https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_12b__configure_nginx.PNG
     
     
  # DEPLOYING THE APP TO THE VM
  6. cd to ```web``
  7. Create venv ```python3 -m venv venv```
  8. Activate the env ```source venv/bin/activate```
+ screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_13_activate_virtual_environment.PNG
  9. Upgrade pip in our virtual environment and then Install dependencies ```pip install --upgrade pip``` ```pip install -r requirements.txt```
 10. Run the app ```python application.py```
-11. In the web browser, visit the public IP address of the VM (51.143.34.63) and you should see the application. Type "exit" to disconnect from the VM.
+11. In the web browser, visit the public IP address of the VM (52.347.233.222) and you should see the application. Type "exit" to disconnect from the VM.
+screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_14_App_successfully_deployed.PNG
