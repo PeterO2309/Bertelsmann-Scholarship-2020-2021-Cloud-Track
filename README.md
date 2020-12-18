@@ -236,8 +236,12 @@ screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Clou
  6. cd to ```web``
  7. Create venv ```python3 -m venv venv```
  8. Activate the env ```source venv/bin/activate```
- screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_13_activate_virtual_environment.PNG
  9. Upgrade pip in our virtual environment and then Install dependencies ```pip install --upgrade pip``` ```pip install -r requirements.txt```
 10. Run the app ```python application.py```
 11. In the web browser, visit the public IP address of the VM (52.347.233.222) and you should see the application. Type "exit" to disconnect from the VM.
-screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_14_App_successfully_deployed.PNG
+
+ # DELETING A RESOURCE GROUP
+ If we no longer need a resource, we can delete them through the portal. The quickest way to do this from the CLI is to delete the resource group. This will delete all resources in that group
+```markdown
+az group delete -n resource-group-west
+```
