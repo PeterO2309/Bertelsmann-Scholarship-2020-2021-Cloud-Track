@@ -246,7 +246,7 @@ screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Clou
 az group delete -n resource-group-west
 ```
 
-# Day 9 of #60DaysOfUdacity (Friday, December 18th, 2020)
+# Day 9 of #60DaysOfUdacity (Saturday, December 19th, 2020)
 I took the following steps to create an App Service Web App using the Azure Portal.
 
 - On the homepage, click "Create a resource"
