@@ -263,3 +263,9 @@ I took the following steps to create an App Service Web App using the Azure Port
 - For SKU and size, select "F1" (Free).
 - Click "Review + Create"
 - Click "Create"
+
+
+# Day 10 of #60DaysOfUdacity (Sunday, December 20th, 2020)
+D10: I started the Udacity "Version control with Git" course to refresh my knowledge of Git. 
+Screenshots: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day10_Git.PNG 
+https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day10_2.PNG
