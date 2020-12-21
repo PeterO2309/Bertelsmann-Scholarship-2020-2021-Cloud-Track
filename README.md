@@ -249,6 +249,8 @@ I took the following steps to create an App Service Web App using the Azure Port
 - Click "Create"
 
 ## Deploy an App Service from a GitHub repository
+- Create a new repo and push the web app code to the repo
+- On Azure portal in the Deployment Center.
 - Go to Deployment Center
 - Choose GitHub
 - Choose org and repo
