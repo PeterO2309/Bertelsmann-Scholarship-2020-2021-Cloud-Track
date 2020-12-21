@@ -324,3 +324,18 @@ or
         --name [App Service Plan Name] \
         --resource-group hello-world-rg
 ```
+
+## Creating an Azure SQL Database in the Portal
+To create an Azure SQL Database in the Azure Portal:
+
+1. Find the "SQL databases" service in Azure.
+2. Click "Create SQL Database".
+3. Select the appropriate subscription and resource group (likely “resource-group-west”).
+4. Enter a database name.
+5. If you already have a SQL server, you can use it; however, you likely need to click "Create New".
+    If creating a new SQL server, enter a server name, and then admin and password("pc-pwd") - make sure you can remember these, or you will not be able to access the server         when necessary. The admin name cannot just be "admin".
+6. Set the location to match the resource group.
+7. Keep SQL elastic pool on the default of "No".
+8. Under Compute+Storage, click on "Configure Database". While General Purpose won't end up charging you anything for the short time the server is live for these exercises, you    might as well press "Looking for basic, standard, premium?", and change it to "Basic".
+9. Press the "Next: Networking" button, then select "Public Endpoint", and set both of the Firewall rules that appear to "Yes". This will allow us to more easily access the SQL    database later on within our app.
+10.Click "Review + Create" and then "Create" to create the database, then wait for it to deploy.
