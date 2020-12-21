@@ -339,3 +339,12 @@ To create an Azure SQL Database in the Azure Portal:
 8. Under Compute+Storage, click on "Configure Database". While General Purpose won't end up charging you anything for the short time the server is live for these exercises, you    might as well press "Looking for basic, standard, premium?", and change it to "Basic".
 9. Press the "Next: Networking" button, then select "Public Endpoint", and set both of the Firewall rules that appear to "Yes". This will allow us to more easily access the SQL    database later on within our app.
 10.Click "Review + Create" and then "Create" to create the database, then wait for it to deploy.
+
+## Adding Data to Database
+To add data to the SQL Database, I performed the following:
+
+- Once the SQL database is deployed, click on its name to access it (you may need to go back to the main "SQL databases" page in Azure).
+- Click on the "Query editor" in the left side menu, and then log in with my SQL Server credentials.
+- I pasted the query from my ```animals-table-init.sql``` script into the query window, and hit "Run"; you should see ```Query succeeded: Affected rows: 3```.
+- On the left side of the query window, I clicked on the "Tables" folder, and double-checked that the ```dbo.POSTS``` table was successfully created with the correct fields.
+- I ran a new query with SELECT * FROM posts, to see the three posts listed.
