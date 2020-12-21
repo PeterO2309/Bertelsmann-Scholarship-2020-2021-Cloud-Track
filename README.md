@@ -176,7 +176,7 @@ az vm open-port --port 80 --resource-group resource-group-west --name linux-vm-w
 6. VM appears on portal. 
 
 
-# CONNECTING TO THE VM
+## CONNECTING TO THE VM
 
 1. Use the following command to grab the IP address for the VM from the CLI. ```az vm list-ip-addresses -g resource-group-west -n linux-vm-west```
 screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_08_get_ipaddress_of_vm.PNG
@@ -216,7 +216,7 @@ screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Clou
  
     
     
- # DEPLOYING THE APP TO THE VM
+ ## DEPLOYING THE APP TO THE VM
  6. cd to ```web``
  7. Create venv ```python3 -m venv venv```
  8. Activate the env ```source venv/bin/activate```
@@ -224,7 +224,7 @@ screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Clou
 10. Run the app ```python application.py```
 11. In the web browser, visit the public IP address of the VM (52.347.233.222) and you should see the application. Type "exit" to disconnect from the VM.
 
- # DELETING A RESOURCE GROUP
+ ## DELETING A RESOURCE GROUP
  If we no longer need a resource, we can delete them through the portal. The quickest way to do this from the CLI is to delete the resource group. This will delete all resources in that group
 ```markdown
 az group delete -n resource-group-west
