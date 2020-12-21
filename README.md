@@ -269,3 +269,33 @@ If we no longer need a resource, we can delete them through the portal.
 D10: I started the Udacity "Version control with Git" course to refresh my knowledge of Git. 
 Screenshots: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day10_Git.PNG 
 https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day10_2.PNG
+
+
+# Day 11 of #60DaysOfUdacity (Monday, December 21th, 2020)
+This is an alternative approach to deploy an app service.
+
+## Steps to Create and Deploy an App Service Web App from a Directory using Azure CLI:
+- Sign in to Azure ```az login``` using IDE or CMD. 
+- cd to web directory ```cd web/```
+- Run the following command:
+```markdown
+    az webapp up -g hello-world-rg -n hello-world-mine-xyz --sku F1 --verbose
+```
+
+or 
+
+```markdown
+az webapp up \
+ --resource-group resource-group-west \
+ --name hello-world1234 \
+ --sku F1 \
+ --verbose
+ ```
+ 
+ - launch the app using the URL (in this case, http://hello-world-mine-xyz.azurewebsites.net)
+ - If you want to update your app, make changes to your code and then run (Note: this may not update new requirements you may have added):
+ ```markdown
+    az webapp up \
+    --name hello-world1234 \
+    --verbose
+ ```
