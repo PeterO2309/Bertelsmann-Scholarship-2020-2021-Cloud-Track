@@ -34,9 +34,6 @@ I successfully set up a resource group in the Azure Portal by following the proc
 - Make sure once you select "Review and create" to actually review the information! While it doesn't take too much time to go back and create a new resource group, you'll want to check for any typos in the name or if the wrong region was selected. When we work out of Azure CLI later, this becomes even more important, as you could cause other scripts to fail if things are named incorrectly or are in an inappropriate region.
 - Click "Create" once you are done reviewing.
 
-- View screenshot here.
-https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day03.PNG 
-https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day03_2.PNG
 
 - Dashboard showing the created resource groups.
 https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day03_3.PNG
@@ -52,9 +49,7 @@ Created a Resource Group using the Azure CLI via the command prompt by doing the
     --location which is the same as the "region" field on the Azure portal.
 - Therefore, created my resource group in the West US 2 region with the name "resource-group-west-using-cli":
 - The command "az group create --name resource-group-west-using-cli --location westus2"
-- Viewed all created resource groups using both portal and cli via https://portal.azure.com/#blade/HubsExtension/BrowseResourceGroups. See screenshot via https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day04_1.PNG
-https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day04_3.PNG
-https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day04_4.PNG
+- Viewed all created resource groups using both portal and cli via https://portal.azure.com/#blade/HubsExtension/BrowseResourceGroups. 
 
 
 - Learnt some of the differences between Virtual Machines(IaaS) and App Services(PaaS). Also, the benefits and disadvantages of each of them. 
@@ -85,8 +80,6 @@ Created a Linux Virtual Machine and deployed it on Azure using the following ste
 - Virtual Machine is successfully deployed. 
 ```
 
-5. Screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day05_1.PNG
-https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day05_2.PNG
 
 
 # Day 6 of #60DaysOfUdacity (Wednesday, December 16th, 2020)
@@ -146,7 +139,6 @@ D7: I finally deployed the flask template app to the VM. I used the admin userna
  9. Upgrade pip in our virtual environment and then Install dependencies ```pip install --upgrade pip``` ```pip install -r requirements.txt```
 10. Run the app ```python application.py```
 11. In the web browser, visit the public IP address of the VM (51.143.34.63) and you should see the application. Type "exit" to disconnect from the VM.
-12. See screenshots: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day07_1_VM_deployed.PNG https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day07_6_connected_to_VM_via_external_source.PNG https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day07_12.PNG
     
 
 # Day 8 of #60DaysOfUdacity (Friday, December 18th, 2020)
@@ -172,7 +164,6 @@ az vm create \
    --generate-ssh-keys \
    --verbose
 ```
-screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_02_create_vm.PNG
 
 3. Upon success, a JSON response is displayed.
 4. open port 80 to allow outside traffic to our VM.
@@ -180,11 +171,9 @@ screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Clou
 ```markdown
 az vm open-port --port 80 --resource-group resource-group-west --name linux-vm-west 
 ```
-screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_03.PNG
 
 5. Upon success, a JSON response is displayed.
 6. VM appears on portal. 
-screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_06_created_vm_on_portal.PNG
 
 
 # CONNECTING TO THE VM
@@ -193,14 +182,11 @@ screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Clou
 screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_08_get_ipaddress_of_vm.PNG
 
 2. Copy a basic Flask app from my local machine to the VM by using the secure copy utility. ```scp -r ./web udacityadmin@52.247.233.222:/home/udacityadmin```
-screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_09_copy%20a%20basic%20Flask%20app%20from%20my%20local%20machine%20to%20the%20VM.PNG
 
 3. Connect to the VM with ```ssh [username]@[IP Address]```. In this case, ```ssh udacityadmin@52.347.233.222```.
     Run ```ls``` to see the web directory we just uploaded.
-    screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_10_connect_to_vm.PNG 
     
 4. Install Python Virtual Environment and NGNIX to use as a reverse proxy ```sudo apt-get -y update && sudo apt-get -y install nginx python3-venv```
-screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_11_%20install%20Python%20Virtual%20Environment%20and%20NGNIX%20to%20use%20as%20a%20reverse%20proxy.PNG
 
 5. Before we run the app, we have to configure Nginx to redirect all incoming connections on port 80 to our app that is running on localhost port 3000.
         - By default, Nginx has a default page that is displayed. If you visit the public IP address in your browser, you should see this page rendered.
@@ -228,8 +214,6 @@ screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Clou
     ```
  - Restart nginx so the changes take effect. ```sudo service nginx restart```
  
- screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_12_configure_nginx.PNG
- https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_12b__configure_nginx.PNG
     
     
  # DEPLOYING THE APP TO THE VM
@@ -263,6 +247,20 @@ I took the following steps to create an App Service Web App using the Azure Port
 - For SKU and size, select "F1" (Free).
 - Click "Review + Create"
 - Click "Create"
+
+## Deploy an App Service from a GitHub repository
+- Go to Deployment Center
+- Choose GitHub
+- Choose org and repo
+- Go through the prompts; deployment takes a few minutes
+- Go to URL of web app and should see the app deployed
+
+## Cleanup
+If we no longer need a resource, we can delete them through the portal.
+
+- From the homepage, click on "Resource Group".
+- Click on the resource group you want to manage.
+- You have two options—"Delete resource group" or if you want to keep the resource group, you can click on the individual or collection of resources you want to delete and click on "Delete".
 
 
 # Day 10 of #60DaysOfUdacity (Sunday, December 20th, 2020)
