@@ -347,4 +347,83 @@ To add data to the SQL Database, I performed the following:
 - Click on the "Query editor" in the left side menu, and then log in with my SQL Server credentials.
 - I pasted the query from my ```animals-table-init.sql``` script into the query window, and hit "Run"; you should see ```Query succeeded: Affected rows: 3```.
 - On the left side of the query window, I clicked on the "Tables" folder, and double-checked that the ```dbo.POSTS``` table was successfully created with the correct fields.
-- I ran a new query with SELECT * FROM posts, to see the three posts listed.
+- I ran a new query with SELECT * FROM animals, to see the three posts listed.
+
+## Create an Azure SQL Database using Azure CLI.
+
+### Create SQL Server
+```markdown 
+    az sql server create \
+    --admin-user udacityadmin \
+    --admin-password p@ssword1234 \
+    --name hello-world-server \
+    --resource-group resource-group-west \
+    --location westus2 \
+    --enable-public-network true \
+    --verbose
+ ```
+
+### Create Firewall rule
+Next, we have to create two firewall rules. These are the same two rules we checked as yes when we used the portal.
+
+The first one is to allow Allow Azure services and resources to access the server we just created.
+
+```markdown 
+    az sql server firewall-rule create \
+    -g resource-group-west \
+    -s hello-world-server \
+    -n azureaccess \
+    --start-ip-address 0.0.0.0 \
+    --end-ip-address 0.0.0.0 \
+    --verbose
+ ```
+
+This second rule is to set your computer's public Ip address to the server's firewall. You'll need to find your computer's public ip address for this part.
+
+On macOS, use the command curl ifconfig.me; you can use ipconfig in the command prompt if you are on Windows.
+
+### Create clientIp firewall rule
+```markdown
+    az sql server firewall-rule create \
+    -g resource-group-west \
+    -s hello-world-server \
+    -n clientip \
+    --start-ip-address <PUBLIC-IP-ADDRESS> \
+    --end-ip-address <PUBLIC_IP_ADDRESS> \
+    --verbose
+```
+### Create SQL Database
+Finally, to create the database itself, I used the below command.
+
+```markdown
+    az sql db create \
+    --name hello-world-db \
+    --resource-group resource-group-west \
+    --server hello-world-server \
+    --tier Basic \
+    --verbose
+```
+
+### Adding Data
+We'll again add data to the database through the portal, as that's the most straightforward method for now (until we connect to an app).
+
+
+### Cleanup
+You can find the CLI commands for cleaning up the SQL resources below.
+
+### Delete DB
+```markdown
+    az sql db delete \
+    --name hello-world-db \
+    --resource-group resource-group-west \
+    --server hello-world-server \
+    --verbose
+```
+
+### Delete SQL Server
+```markdown
+    az sql server delete \
+    --name hello-world-server \
+    --resource-group resource-group-west \
+    --verbose
+```
