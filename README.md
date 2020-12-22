@@ -479,9 +479,9 @@ This is an alternative way to create an Azure Storage Account and a Storage Cont
 First we create our storage account. We use the following command on cmd:
 
 ```markdown
-    az storage account create \
-    --name helloworld12345 \
-    --resource-group resource-group-west \
+    az storage account create ^
+    --name helloworld12345 ^
+    --resource-group resource-group-west ^
     --location westus2
 ```
 The storage will default to general purpose V2 and the access tier cannot be set, so it will default to hot. 
@@ -489,10 +489,10 @@ The storage will default to general purpose V2 and the access tier cannot be set
 ### Then we create our container.
 
 ```markdown
-    az storage container create \
-    --account-name helloworld12345 \
-    --name images \
-    --auth-mode login \
+    az storage container create ^
+    --account-name helloworld12345 ^
+    --name images ^
+    --auth-mode login ^
     --public-access container
 ```
 
