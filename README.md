@@ -427,3 +427,40 @@ You can find the CLI commands for cleaning up the SQL resources below.
     --resource-group resource-group-west \
     --verbose
 ```
+
+# Day 12 of #60DaysOfUdacity (Tuesday, December 22th, 2020)
+
+## Creating Blob Storage in the Portal
+
+To create a blob storage account on Azure Portal, I did the following:
+
+- Click Create a resource
+- Search for storage account
+- Select the appropriate subscription and resource group (in this case “resource-group-west”).
+- Enter a storage account name, note—it can only be lowercase letters and numbers. “helloworld1234mine”
+- Set the location to West US 2 to match the resource group "Europe West".
+- Leave "Performance" as Standard, while making sure "Account kind" is StorageV2. This could also be BlobStorage, but StorageV2 is preferred.
+- We’ll leave replication/redundancy on the default setting.
+- Click "Next: "Advance".
+- Set "Access tier" to Cool - in a live production app, you may need this to be Hot, but in our case, Cool will work just fine.
+- Then set "Blob public access" to "Enabled
+- Click "Next: Networking" to confirm that the storage account is using a Public endpoint (all networks)
+- Click "Next: Data Protection".
+- Click "Review + Create" and then "Create" to create the database, then wait for it to deploy.
+
+## To add a Blob Container called images:
+
+- Once the Storage account is deployed, click on its name to access it (you may need to go back to the main "Storage accounts" page in Azure).
+- Click on the "Containers" button in the storage account's "Overview" page.
+- Click "+ Container", then add the name of images.
+- Set "Public access level" to "Container(anonymous read access for containers and blobs)", and click "Create".
+NOTE: I had to refresh my page a few times before I could access the container.
+
+## Adding Images to the Container
+To add an image to the Blob Container:
+
+- Click on the container named "images".
+- Click "Upload", and add an image of your choosing.
+- Once the image appears within the container view, click on it, and copy the "URL" property.
+- Paste the URL into your browser to see if the image appropriately loads.
+You can also download the file from here as well
