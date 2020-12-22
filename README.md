@@ -429,6 +429,13 @@ You can find the CLI commands for cleaning up the SQL resources below.
 ```
 
 # Day 12 of #60DaysOfUdacity (Tuesday, December 22th, 2020)
+D12: Day 12 of #60daysofudacity
+
+Today, I created a blob storage, blob container via the Azure portal.
+- Added images to the container.
+- Viewed and downloaded the images. 
+- Deleted the storage account.
+- I also did the above steps using the Azure CLI.
 
 ## Creating Blob Storage in the Portal
 
