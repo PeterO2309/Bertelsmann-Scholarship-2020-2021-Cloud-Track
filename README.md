@@ -464,3 +464,12 @@ To add an image to the Blob Container:
 - Once the image appears within the container view, click on it, and copy the "URL" property.
 - Paste the URL into your browser to see if the image appropriately loads.
 You can also download the file from here as well
+
+## Cleanup
+If we no longer need a resource, we can delete them through the portal.
+
+- From the homepage, click on "Resource Group".
+- Click on the resource group you want to manage.
+- Select the storage account
+- Click delete, thenn confirm.
+.
