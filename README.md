@@ -471,5 +471,32 @@ If we no longer need a resource, we can delete them through the portal.
 - From the homepage, click on "Resource Group".
 - Click on the resource group you want to manage.
 - Select the storage account
-- Click delete, thenn confirm.
-.
+- Click delete, then confirm.
+
+## Creating Blob Storage from the CLI
+This is an alternative way to create an Azure Storage Account and a Storage Container using Azure CLI.
+
+First we create our storage account. We use the following command on cmd:
+
+```markdown
+    az storage account create \
+    --name helloworld12345 \
+    --resource-group resource-group-west \
+    --location westus2
+```
+The storage will default to general purpose V2 and the access tier cannot be set, so it will default to hot. 
+
+### Then we create our container.
+
+```markdown
+    az storage container create \
+    --account-name helloworld12345 \
+    --name images \
+    --auth-mode login \
+    --public-access container
+```
+
+You can go to the portal to check that the storage account and container have been created. You can then upload an image through the portal the same way as we did using the portal; 
+
+To change the access tier, go to ```settings```, then ```Access tier(default)```, then select ```cool```.
+Lastly,to set up a new lifecycle management rule for an alert, go to  ```Blob Service``` within your Storage Account, click ```Lifecycle Management```, then ```+Add rule```.
