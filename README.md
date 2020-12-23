@@ -517,12 +517,87 @@ D13: Day 13 of #60daysofudacity
 ### To connect an app to the storage we've set up, we need a few things from each storage service.
 
 #### From the SQL server and database:
-SQL Server server name (the name of the sql server with .database.windows.net appended to it)
-Admin username
-Admin password
-SQL Database name
+- SQL Server server name (the name of the sql server with .database.windows.net appended to it. In this case, mytest-server.database.windows.net) 
+- Admin username: udacityadmin
+- Admin password: p@ssword123
+- SQL Database name ("test-db)
 
 #### From blob storage:
-Storage account name
-A storage account access key
-Container name
+- Storage account name ("helloworld12345mine")
+- A storage account access key (go to ```storage account``` > ```settings``` > ```access keys```).
+    (zWkVGXi1CCU+6UgnwQ7ruThRfnxuSKthrg6DLE+ECJdOUhEJ6g3jkwuHISfjPHPRfR2lW1tjdl4mRC76LjlR8A==)
+- Container name("images").
+
+### Azure Storage Blob Library for Python
+In order to interact with our Azure blob storage from within the Python web app, we'll need the Azure Storage Blob Library(https://pypi.org/project/azure-storage-blob/). Note that you can install this with ```pip install azure-storage-blob```, and you'll need to make sure to include the library in your ```requirements.txt``` file in your own apps.
+
+We will largely focus on the BlobServiceClient class. This class has three methods we’ll use:
+
+- get_blob_client - creates a blob client using the filename as the name for the blob
+- upload_blob - upload the file to the blob container
+- delete_blob - delete a blob from a blob container
+
+#### Uploading a blob
+Here is the code I included for uploading a blob in the ```config.py``` file.
+
+```markdown
+    from azure.storage.blob import BlobServiceClient
+
+    blob_container = app.config['BLOB_CONTAINER']
+    storage_url = "https://{}.blob.core.windows.net/".format(app.config['BLOB_ACCOUNT'])
+    blob_service = BlobServiceClient(account_url=storage_url, credential=app.config['BLOB_STORAGE_KEY'])
+
+    blob_client = blob_service.get_blob_client(container=blob_container, blob=filename)
+    blob_client.upload_blob(file)
+```
+
+Note that I am getting the ```BLOB_CONTAINER``` name from the configuration file, which was attached to the Flask app separately. I do a similar procedure for getting the ```BLOB_ACCOUNT``` AND ```BLOB_STORAGE_KEY``` where needed. I then use the aforementioned ```get_blob_client``` and ```upload_blob``` functions to upload a file.
+
+You might notice that there is a ```filename``` and ```file``` used here - these are not the same things! The ```filename``` is just the name of the ```file```, e.g. ```test_image.png```, while the ```file``` is the actual file object. So, the ```blob client``` is first called to create a blob with the given ```filename```, and then the ```file``` is uploaded into that ```filename``` blob.
+
+#### Deleting a blob
+Assuming you've already defined the ```blob_service``` from before, you just need to get a new blob client with ```get_blob_client``` for the related container and ```filename```, then ```delete_blob```.
+
+```markdown
+    blob_client = blob_service.get_blob_client(container=blob_container, blob=filename)
+    blob_client.delete_blob()
+```
+
+It's important to note here you don't need a file to feed to ```delete_blob``` - by specifying the ```filename``` when you ```get_blob_client```, it already knows what blob you are referring to.
+
+### Create "Animals" table in the database. 
+- Open the created "SQL database" by clicking on its name to access it from the "Resource group" page.
+- Click on the "Query editor" in the left side menu, and then log in with my SQL Server credentials.
+- past the query from my animals-table-init.sql script below into the query window, and hit "Run"; you should see Query succeeded: Affected rows: 3.
+
+```markdown
+CREATE TABLE ANIMALS(
+    id INT NOT NULL IDENTITY(1, 1),
+    name VARCHAR(75) NOT NULL,
+    scientific_name VARCHAR(75) NOT NULL,
+	description VARCHAR(800) NOT NULL,
+    image_path VARCHAR(100) NULL,
+	PRIMARY KEY (id)
+);
+
+INSERT INTO dbo.animals (name, scientific_name, description)
+VALUES (
+    'Bengal tiger',
+    'Panthera tigris tigris',
+    'A big orange cat! They like to hunt and usually live alone. Are found largely in India and Bangladesh.'
+);
+
+INSERT INTO dbo.animals (name, scientific_name, description)
+VALUES (
+    'African bush elephant',
+    'Loxodonta africana',
+    'Huge, incredibly intelligent mammals, with large, distinctive tusks. Found in multiple locations throughout Africa.'
+);
+
+INSERT INTO dbo.animals (name, scientific_name, description)
+VALUES (
+    'Monarch Butterfly',
+    'Danaus plexippus',
+    'A butterfly typically covered in orange, black and white markings. Can be found throughout the Americas, as well as in many islands in the Pacific and Australia.'
+);
+```
