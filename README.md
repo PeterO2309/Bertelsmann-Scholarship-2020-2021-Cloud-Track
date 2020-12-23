@@ -532,6 +532,7 @@ D13: Day 13 of #60daysofudacity
 - Add the necessary environment variables to connect to the SQL database in ```config.py```.
 - Then, add the necessary environment variables to connect to the Blob storage container in ```config.py```.
 - Add the necessary code in ```models.py``` to work with the BlobServiceClient to upload new images and delete any images that are replaced.
+- Create "Animals" table in the database.
 - Run the app on your local machine, and check that the animals are correctly populated from the SQL database.
 - Add some images for each animal. You should be able to check back in your blob container and see that new images were added, and they should populate back to the main page.
 
