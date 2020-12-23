@@ -528,6 +528,14 @@ D13: Day 13 of #60daysofudacity
     (zWkVGXi1CCU+6UgnwQ7ruThRfnxuSKthrg6DLE+ECJdOUhEJ6g3jkwuHISfjPHPRfR2lW1tjdl4mRC76LjlR8A==)
 - Container name("images").
 
+#### Summary
+- Add the necessary environment variables to connect to the SQL database in ```config.py```.
+- Then, add the necessary environment variables to connect to the Blob storage container in ```config.py```.
+- Add the necessary code in ```models.py``` to work with the BlobServiceClient to upload new images and delete any images that are replaced.
+- Run the app on your local machine, and check that the animals are correctly populated from the SQL database.
+- Add some images for each animal. You should be able to check back in your blob container and see that new images were added, and they should populate back to the main page.
+
+
 ### Azure Storage Blob Library for Python
 In order to interact with our Azure blob storage from within the Python web app, we'll need the Azure Storage Blob Library(https://pypi.org/project/azure-storage-blob/). Note that you can install this with ```pip install azure-storage-blob```, and you'll need to make sure to include the library in your ```requirements.txt``` file in your own apps.
 
@@ -538,7 +546,7 @@ We will largely focus on the BlobServiceClient class. This class has three metho
 - delete_blob - delete a blob from a blob container
 
 #### Uploading a blob
-Here is the code I included for uploading a blob in the ```config.py``` file.
+Here is the code I included for uploading a blob in the ```models.py``` file.
 
 ```markdown
     from azure.storage.blob import BlobServiceClient
@@ -601,3 +609,13 @@ VALUES (
     'A butterfly typically covered in orange, black and white markings. Can be found throughout the Americas, as well as in many islands in the Pacific and Australia.'
 );
 ```
+
+### Activate virtual environment and run app. 
+- cd to app folder.
+- Create ```venv python3 -m venv venv```
+- Activate the env source ```venv\Scripts\activate```
+- Upgrade pip in our virtual environment ```python -m pip install --upgrade pip```
+- then Install dependencies ```pip install -r requirements.txt```
+- Run the app ```python application.py```
+- Go to ```http://localhost:5555/``` in your browser. 
+In the web browser, visit the public IP address of the VM (52.347.233.222) and you should see the application. Type "exit" to disconnect from the VM.
