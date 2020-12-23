@@ -618,5 +618,4 @@ VALUES (
 - Upgrade pip in our virtual environment ```python -m pip install --upgrade pip```
 - then Install dependencies ```pip install -r requirements.txt```
 - Run the app ```python application.py```
-- Go to ```http://localhost:5555/``` in your browser. 
-In the web browser, visit the public IP address of the VM (52.347.233.222) and you should see the application. Type "exit" to disconnect from the VM.
+- Go to ```http://localhost:5555/``` in your browser and you should see the application.
