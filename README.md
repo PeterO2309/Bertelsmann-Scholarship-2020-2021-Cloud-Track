@@ -507,3 +507,22 @@ You can go to the portal to check that the storage account and container have be
 
 To change the access tier, go to ```settings```, then ```Access tier(default)```, then select ```cool```.
 Lastly,to set up a new lifecycle management rule for an alert, go to  ```Blob Service``` within your Storage Account, click ```Lifecycle Management```, then ```+Add rule```.
+
+
+# Day 13 of #60DaysOfUdacity (Wednesday, December 23th, 2020)
+D13: Day 13 of #60daysofudacity
+- Today, I connected the app to the storage account and database. 
+- I was able to read texts and images saved in it. 
+
+### To connect an app to the storage we've set up, we need a few things from each storage service.
+
+#### From the SQL server and database:
+SQL Server server name (the name of the sql server with .database.windows.net appended to it)
+Admin username
+Admin password
+SQL Database name
+
+#### From blob storage:
+Storage account name
+A storage account access key
+Container name
