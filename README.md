@@ -619,3 +619,11 @@ VALUES (
 - then Install dependencies ```pip install -r requirements.txt```
 - Run the app ```python application.py```
 - Go to ```http://localhost:5555/``` in your browser and you should see the application.
+
+# Day 14 of #60DaysOfUdacity (Thursday, December 24th, 2020) - Christmas Eve
+D14: Day 14 of #60daysofudacity
+Christmas is here, celebration mode has been activated. Almost missed today's challenge, but i encouraged myself to watch the videos and study the notes for atleast 30minutes. So today, 
+- I watched the introduction to Security and Monitoring basics of Lesson 4. 
+- Also watched topic 2 to 4 videos and the lecture note. 
+
+
