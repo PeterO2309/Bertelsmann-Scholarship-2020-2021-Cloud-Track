@@ -626,4 +626,7 @@ Christmas is here, celebration mode has been activated. Almost missed today's ch
 - I watched the introduction to Security and Monitoring basics of Lesson 4. 
 - Also watched topic 2 to 4 videos and the lecture note. 
 
+# Day 15 of #60DaysOfUdacity (Friday, December 25th, 2020) - Christmas day
+D15: Day 15 of #60daysofudacity
+it's Christmas day, i tried to study new thing today but it didn't work. I ended up revising old lectures/materials. Still in the festive mode. I'm hoping to learn new stuff tomorrow. I will like to encouraging everyone to not get carried away by the merriment of the season. Keep pushing .
 
