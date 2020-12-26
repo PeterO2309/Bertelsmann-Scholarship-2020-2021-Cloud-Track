@@ -630,3 +630,30 @@ Christmas is here, celebration mode has been activated. Almost missed today's ch
 D15: Day 15 of #60daysofudacity
 it's Christmas day, i tried to study new thing today but it didn't work. I ended up revising old lectures/materials. Still in the festive mode. I'm hoping to learn new stuff tomorrow. I will like to encouraging everyone to not get carried away by the merriment of the season. Keep pushing .
 
+
+# Day 16 of #60DaysOfUdacity (Saturday, December 26th, 2020) - Boxing day
+D16: Day 16 of #60daysofudacity
+Azure Active Directory is Microsoft’s solution for single sign-on (SSO) and multi-factor authentication (MFA). We'll be using it in combination with the Microsoft Authentication Library (MSAL) to use "Sign in with Microsoft" buttons in an app, although it can be used more broadly for identity management purposes within an organization. The "tenant" in Azure AD is usually equivalent to an organization.
+
+## Using Azure Active Directory in the Portal
+- Search for "Active Directory" on the Azure portal. 
+- From there, you should already be in a tenant by default, although you can create a new one, if needed, to keep things separate from your main tenant. Again, if you are on an enterprise account that limits your access here, you may need to use another (personal) account.
+
+### To register an app in Azure AD (which does not actually need a deployed app for these steps):
+- Click on app registrations on the left panel.
+- click on ```+new registration```
+- Enter a user-facing display name.
+- I allowed the widest set of accounts to access it (Accounts in any organizational directory and personal Microsoft accounts). Chose this because it makes it easier to allow other users to authenticate with the app.
+- You can ignore the redirect URI here for now, and revisit that when we get to implementing OAuth 2.0. 
+- Once the Application has been registered, you need to copy the Application (client) ID, as it’ll be used later on.
+- Next, under "manage" on the left here, click on ```certificates and secrets``` seen on the left side.
+- Click on "+ New client secret", then enter a description (you can decide on your own desired expiration time, I chose one year). Copy down the string under "Value", and make sure you store it somewhere safe - you won't be able to see it again, and would otherwise have to create a new client secret once again. We’ll use this value and the application client ID when implementing OAuth 2.0.
+
+```markdown
+	Application(client) ID: c43fefe9-85e6-4635-be29-6b398cf53cbf
+	Directory (tenant)ID: a60d5df0-1322-4a1f-bd98-b2fef3ad851f
+	Object ID: 77569788-4ce5-4bd6-aa97-42952b14f21a
+
+	Client secrets
+	hello world desc - (Value) UgzSP5556B7W-9_qbAB~I923F-sDZudZ1a (ID) 1a7c635e-5758-443c-80e5-25ec7c9e12dd
+```
