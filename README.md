@@ -682,14 +682,14 @@ Click Configure.
 ## Adding MSAL functionality
 ### Implement "Sign in with Microsoft" with MSAL
 
-- In ```_build_msal_app```, you'll want to use a ```ConfidentialClientApplication``` (see documentation here):
+- In ```_build_msal_app```, you'll want to use a ```ConfidentialClientApplication``` (see documentation here https://msal-python.readthedocs.io/en/latest/#confidentialclientapplication):
 ```markdown
  	return msal.ConfidentialClientApplication(
      		Config.CLIENT_ID, authority=authority or Config.AUTHORITY,
      		client_credential=Config.CLIENT_SECRET, token_cache=cache)
 ```
 
-- In ```_build_auth_url```, you can use the previous msal app to get an authorization request url (see documentation here):
+- In ```_build_auth_url```, you can use the previous msal app to get an authorization request url (see documentation here https://msal-python.readthedocs.io/en/latest/#msal.ClientApplication.get_authorization_request_url):
 ```markdown
 	return _build_msal_app(authority=authority).get_authorization_request_url(
     		scopes or [],
