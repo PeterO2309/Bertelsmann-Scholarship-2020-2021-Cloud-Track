@@ -718,3 +718,9 @@ You may have noticed the use of ```_scheme='https'``` and ```_external=True``` i
 Setting the ```_scheme``` to "https" allows it to be served to the browser, as you may guess, through "https". Now, we don't have a fully secure app, as you may note when you try to open it in your browser; however, in this basic app, it's not super concerning just yet. However, Azure Active Directory will not allow you to use a non-HTTPS website for a live app's redirect URI (localhost can still use HTTP).
 
 In order for this ```_scheme``` setting to work, ```_external``` must also be set to True, which just means an absolute URL will be created, as opposed to a relative URL such as which works with localhost.
+
+
+D18: Day 18 of #60daysofudacity Today,
+- Watched videos 12 to 14 in Lesson 4.
+- Attempted the exercise in 13 and 14 but encountered some challenges, couldn't finish.
+- Current course completion at 96% viewed.
