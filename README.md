@@ -720,7 +720,8 @@ Setting the ```_scheme``` to "https" allows it to be served to the browser, as y
 In order for this ```_scheme``` setting to work, ```_external``` must also be set to True, which just means an absolute URL will be created, as opposed to a relative URL such as which works with localhost.
 
 
-# D18: Day 18 of #60daysofudacity Today,
+# D18: Day 18 of #60daysofudacity 
+Today,
 - Watched videos 12 to 14 in Lesson 4.
 - Attempted the exercise in 13 and 14 but encountered some challenges, couldn't finish.
 - Current course completion at 96% viewed.
