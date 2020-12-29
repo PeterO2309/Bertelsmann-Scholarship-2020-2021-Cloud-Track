@@ -725,3 +725,10 @@ Today,
 - Watched videos 12 to 14 in Lesson 4.
 - Attempted the exercise in 13 and 14 but encountered some challenges, couldn't finish.
 - Current course completion at 96% viewed.
+
+# D19: Day 19 of #60daysofudacity 
+Today,
+- Revised videos 12 to 14 in Lesson 4.
+- Attempted the exercise in 13 and 14 and fixed the problems i encountered earlier.
+- Added monitoring and logging into my Azure applications, including storing logs and activating alerts
+- Completed the course. 
