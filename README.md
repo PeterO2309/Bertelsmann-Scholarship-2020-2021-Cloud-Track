@@ -732,3 +732,72 @@ Today,
 - Attempted the exercise in 13 and 14 and fixed the problems i encountered earlier.
 - Added monitoring and logging into my Azure applications, including storing logs and activating alerts
 - Completed the course. 
+
+## Monitoring and Logging in Azure. 
+- Login to Azure CLI ```az login```
+- navigate to the app directory. 
+
+### Adding Logging in the Flask App
+1. Flask apps actually have this logger by default, and it uses the ```logging``` library from the Python standard library. As such, since we want to set the logging level to ```warning```, it can be done as follows in ```__init__.py```:
+```markdown
+	app.logger.setLevel(logging.WARNING)
+```
+We also want to update the stream handler for the logger to only pay attention to warnings and above:
+```markdown
+	streamHandler = logging.StreamHandler()
+ 	streamHandler.setLevel(logging.WARNING)
+ 	app.logger.addHandler(streamHandler)
+```
+
+2. There's quite a bit of room for exactly what messages you want to log for each log level in the app, but I did this in the basic fashion below, just stating back which level occurred:
+```markdown
+	if log:
+     		if log == 'info':
+         		app.logger.info('No issue.')
+     		elif log == 'warning':
+         		app.logger.warning('Warning occurred.')
+     		elif log == 'error':
+         		app.logger.error('Error occurred.')
+     		elif log == 'critical':
+         		app.logger.critical('Critical error occurred.')
+```
+
+3. From there, I first confirmed that the logs appeared to be working through the terminal by running on localhost, then I created a resource group and deployed the app to azure. 
+```markdown
+	az webapp up -g hello-world-forreal-dec -n flaskexercisedecember --location westeurope --sku F1 --verbose
+```
+
+### Sending Logs to Storage
+Note: I should be using console logs when setting up my alert, not app logs.
+
+1. To prepare for sending logs to storage, I first went and created a new storage account in the portal. This can just be standard performance, StorageV2, with cool access tier (you would likely be better served with hot access in an app with substantial logging needs). I used the defaults for everything else.
+
+2. If the app is deployed, head to the app URL and press a few buttons. Back in the App Service page in the portal, find the "Log stream" under "Monitoring", and confirm that your button presses are in fact showing up in the Log stream.
+
+3.Next, click on "Diagnostic settings", also under "Monitoring", then "Add diagnostic setting". Give it a name, then under "log", click "AppServiceConsoleLogs", then under "Destination details", click "Archive to a storage account". You can change the "Retention (days)" that has appeared on the left if you want; the default of "0" will be indefinite retention. Then click "Save". It will take about ten minutes for this to begin populating.
+
+### Adding Alerts
+1. Go back to your App Service, and click on "Alerts" under "Monitoring", then "+ New alert rule". The scope should just be your app.
+
+2. Under "Condition", click "Select condition", then find the "Signal name" ```Requests```, and click on it. Scroll down to "Alert logic", and change the "Aggregation Type" to ```Count```, then put ```20``` in the "count" box (this is set low on purpose). Finally, set the "Aggregation granularity" to 15 minutes to make sure you will activate the alert, and click "Done".
+
+3. Under "Action group", click "Select action group", and then "+ Create action group". Give it an "Action group name", "Short name", then make sure to select the same Resource group as your app is in for easier deletion later on. Give the "Action name" something descriptive, such as ```20 Requests in 15 minutes```. Then, for "Action Type", select "Email/SMS message/Push/Voice". In the new window, click on "Email" and enter your own email, then click "OK" at the bottom of this side window, then "OK" at the bottom of the main window for adding the action group.
+
+4. Lastly, add an alert rule name and description. You can change the severity of the alert if you wish. Make sure the final box for "Enable alert rule upon creation" is checked. Finally, click the "Create alert rule" button. Once again, this will take about 10 minutes to activate.
+Quotas & Checking on Logs and Alerts
+
+### Considering quotas:
+
+1. While waiting for the previous two stages to be ready, navigate back to your App Service, and find the "App Service plan" header, then click on "Quotas". On mine, under the free tier, I notice I have 60 minutes of CPU time for the day, and 330 MB (I accidentally say 165 MB in the video) of data out (along with one for shorter CPU time, and another for memory usage).
+
+2. While not required to add the actual alerts for these, it's important to consider how you might approach doing so. If I go back to Alerts and check out the different conditions, I notice that CPU Time and Data Out are both two other Metrics I could make an alert based on. For CPU Time, perhaps I could consider setting an alert for 15 minutes total used (900 seconds) within a six hour aggregation period. If this is triggered, maintained activity at that level would cause the CPU time quota to be exceeded, leading to the app being stopped.
+
+3. There are plenty of more ways to address these quotas through alerts, but that is just one example.
+
+### Checking that log storage and alerts were appropriately created:
+
+1.If it's been 10 minutes, first navigate back to your app URL and click the buttons each a handful of times, to make sure you have some new logging information, as well as hitting a decent number of requests to trigger the alert email. You can check the "Metrics" page under "Monitoring" for your App Service, and select the "Requests" metric (it updates once every five minutes) to confirm you are actually sending enough requests, or you could also manually count from the Log stream.
+
+2. To check log storage is appropriately configured, go back to the storage account you created earlier, and look at its containers. If it hasn't been ten minutes yet, the logs may not have appeared yet. If a container was created, click on it, then dive down into the directories until you get to the json logs. Download the log, and confirm it shows some of your various logging from the app.
+
+3. To check that the alert has appropriately occurred (make sure you have actually met the trigger criteria), just check your email. Note that you will have received a first email just for joining the action group.
