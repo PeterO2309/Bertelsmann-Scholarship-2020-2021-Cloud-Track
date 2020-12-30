@@ -801,3 +801,9 @@ Quotas & Checking on Logs and Alerts
 2. To check log storage is appropriately configured, go back to the storage account you created earlier, and look at its containers. If it hasn't been ten minutes yet, the logs may not have appeared yet. If a container was created, click on it, then dive down into the directories until you get to the json logs. Download the log, and confirm it shows some of your various logging from the app.
 
 3. To check that the alert has appropriately occurred (make sure you have actually met the trigger criteria), just check your email. Note that you will have received a first email just for joining the action group.
+
+# D20: Day 20 of #60daysofudacity 
+- In other to be able to take on the optional project challenge, I started studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3. 
+- Completed part 1 "Getting Started" and Part 2 "Templates" in the series. 
+- Since I'm going to be using virtual environment alot for this project, i studies how on Creating Virtual Environments using Python’s built-in venv module on Windows and how to use it in project. I documented the steps here https://peteroj.medium.com/creating-virtual-environments-using-pythons-built-in-venv-module-on-windows-916dbdec7f0e.
+
