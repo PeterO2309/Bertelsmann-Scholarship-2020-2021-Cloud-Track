@@ -802,8 +802,14 @@ Quotas & Checking on Logs and Alerts
 
 3. To check that the alert has appropriately occurred (make sure you have actually met the trigger criteria), just check your email. Note that you will have received a first email just for joining the action group.
 
+
 # D20: Day 20 of #60daysofudacity 
 - In other to be able to take on the optional project challenge, I started studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3. 
 - Completed part 1 "Getting Started" and Part 2 "Templates" in the series. 
 - Since I'm going to be using virtual environment alot for this project, i studies how on Creating Virtual Environments using Python’s built-in venv module on Windows and how to use it in project. I documented the steps here https://peteroj.medium.com/creating-virtual-environments-using-pythons-built-in-venv-module-on-windows-916dbdec7f0e.
+
+
+# D21: Day 21 of #60daysofudacity - New year Eve
+- I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3.
+- I watched and practiced the part 3 "Forms and User Input" in the series. Faced some challenges, couldn't complete it. I will continue tomorrow.
 
