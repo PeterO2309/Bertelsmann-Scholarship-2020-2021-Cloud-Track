@@ -813,3 +813,11 @@ Quotas & Checking on Logs and Alerts
 - I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3.
 - I watched and practiced the part 3 "Forms and User Input" in the series. Faced some challenges, couldn't complete it. I will continue tomorrow.
 
+D22: Day 22 of #60daysofudacity - New year Day
+- I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer https://www.youtube.com/watch?v=44PvX0Yv368&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=5
+- I watched and practiced parts 3, 4 and 5 of 15 in the series. 
+- Resolved the challenges i faced earlier with "Forms and User Input" .
+- Created a database using Flask SQLalchemy.
+- Structured the project package. 
+-
+
