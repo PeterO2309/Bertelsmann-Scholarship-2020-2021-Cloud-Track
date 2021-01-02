@@ -820,3 +820,8 @@ Quotas & Checking on Logs and Alerts
 - Created a database using Flask SQLalchemy.
 - Structured the project package. 
 
+# D23: Day 23 of #60daysofudacity
+- I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer 
+- I watched and practiced parts 6 of 15 in the series. 
+- Implemented User authentication. 
+
