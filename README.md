@@ -837,9 +837,9 @@ Quotas & Checking on Logs and Alerts
 
 
 # D26: Day 26 of #60daysofudacity
-I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer
-I watched and practiced parts 9 of 15 "Pagination" in the series.
-I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
-Learnt about LinkedList today.
+- I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer
+- I watched and practiced parts 9 of 15 "Pagination" in the series.
+- I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
+- Learnt about LinkedList today.
 
 
