@@ -842,4 +842,9 @@ Quotas & Checking on Logs and Alerts
 - I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
 - Learnt about LinkedList today.
 
+# D27: Day 27 of #60daysofudacity
+- I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer
+- I watched and practiced parts 10 of 15 "Email and Password" in the series.
+- I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
+- Learnt about Stacks and Queues today.
 
