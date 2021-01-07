@@ -720,13 +720,13 @@ Setting the ```_scheme``` to "https" allows it to be served to the browser, as y
 In order for this ```_scheme``` setting to work, ```_external``` must also be set to True, which just means an absolute URL will be created, as opposed to a relative URL such as which works with localhost.
 
 
-# D18: Day 18 of #60daysofudacity 
+# D18: Day 18 of #60daysofudacity (Monday, December 28th, 2020)
 Today,
 - Watched videos 12 to 14 in Lesson 4.
 - Attempted the exercise in 13 and 14 but encountered some challenges, couldn't finish.
 - Current course completion at 96% viewed.
 
-# D19: Day 19 of #60daysofudacity 
+# D19: Day 19 of #60daysofudacity (Tuesday, December 29th, 2020)
 Today,
 - Revised videos 12 to 14 in Lesson 4.
 - Attempted the exercise in 13 and 14 and fixed the problems i encountered earlier.
@@ -803,48 +803,52 @@ Quotas & Checking on Logs and Alerts
 3. To check that the alert has appropriately occurred (make sure you have actually met the trigger criteria), just check your email. Note that you will have received a first email just for joining the action group.
 
 
-# D20: Day 20 of #60daysofudacity 
+# D20: Day 20 of #60daysofudacity (Wednesday, December 30th, 2020)
 - In other to be able to take on the optional project challenge, I started studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3. 
 - Completed part 1 "Getting Started" and Part 2 "Templates" in the series. 
 - Since I'm going to be using virtual environment alot for this project, i studies how on Creating Virtual Environments using Python’s built-in venv module on Windows and how to use it in project. I documented the steps here https://peteroj.medium.com/creating-virtual-environments-using-pythons-built-in-venv-module-on-windows-916dbdec7f0e.
 
 
-# D21: Day 21 of #60daysofudacity - New year Eve
+# D21: Day 21 of #60daysofudacity - New year Eve (Thursday, December 31st, 2020)
 - I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer https://www.youtube.com/watch?v=UIJKdCIEXUQ&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=3.
 - I watched and practiced the part 3 "Forms and User Input" in the series. Faced some challenges, couldn't complete it. I will continue tomorrow.
 
-# D22: Day 22 of #60daysofudacity - New year Day
+# D22: Day 22 of #60daysofudacity - New year Day (Friday, January 1st, 2021)
 - I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer https://www.youtube.com/watch?v=44PvX0Yv368&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=5
 - I watched and practiced parts 3, 4 and 5 of 15 in the series. 
 - Resolved the challenges i faced earlier with "Forms and User Input" .
 - Created a database using Flask SQLalchemy.
 - Structured the project package. 
 
-# D23: Day 23 of #60daysofudacity
+# D23: Day 23 of #60daysofudacity (Saturday, January 2nd, 2021)
 - I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer 
 - I watched and practiced parts 6 of 15 in the series. 
 - Implemented User authentication. 
 
-# D24: Day 24 of #60daysofudacity
+# D24: Day 24 of #60daysofudacity (Sunday, January 3rd, 2021)
 - I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer 
 - I watched and practiced parts 7 of 15 "User Account and Profile Picture" in the series. 
 - Implemented the feature for update the user's account and its profile picture
 
-# D25: Day 25 of #60daysofudacity
+# D25: Day 25 of #60daysofudacity (Monday, January 4th, 2021)
 - I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer 
 - I watched and practiced parts 8 of 15 "Creating, reading, updating and deleting user posts" in the series. 
 - I started the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
 
 
-# D26: Day 26 of #60daysofudacity
+# D26: Day 26 of #60daysofudacity (Tuesday, January 5th, 2021)
 - I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer
 - I watched and practiced parts 9 of 15 "Pagination" in the series.
 - I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
 - Learnt about LinkedList today.
 
-# D27: Day 27 of #60daysofudacity
+# D27: Day 27 of #60daysofudacity (Wednesday, January 6th, 2021)
 - I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer
 - I watched and practiced parts 10 of 15 "Email and Password" in the series.
 - I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
 - Learnt about Stacks and Queues today.
+
+# D28: Day 28 of #60daysofudacity (Thursday, January 7th, 2021)
+- I revised the code from the tutorial series "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer up to part 10 of 15. 
+
 
