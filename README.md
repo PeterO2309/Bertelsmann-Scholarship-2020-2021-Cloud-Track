@@ -852,3 +852,7 @@ Quotas & Checking on Logs and Alerts
 - I revised the code from the tutorial series "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer up to part 10 of 15. 
 
 
+# D27: Day 27 of #60daysofudacity (Wednesday, January 6th, 2021)
+- I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer
+- I watched and practiced parts 11 of 15 "Blueprints and Configuration" in the series.
+
