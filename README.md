@@ -852,7 +852,13 @@ Quotas & Checking on Logs and Alerts
 - I revised the code from the tutorial series "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer up to part 10 of 15. 
 
 
-# D29: Day 29 of #60daysofudacity (Thursday, January 8th, 2021)
+# D29: Day 29 of #60daysofudacity (Friday, January 8th, 2021)
 - I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer
 - I watched and practiced parts 11 of 15 "Blueprints and Configuration" in the series.
+
+# D30: Day 30 of #60daysofudacity (Saturday, January 9th, 2021)
+- I continued studying "Python Flask Tutorial: Full-Featured Web App " by Corey Schafer.
+- I watched and practiced parts 12 of 15 "Custom Error Pages" in the series.
+- Attended the first AZ-series meetup. #sg_azure_certification_prep
+- Watched "Python Object-Oriented Tutorials" by Corey Schafer. https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc 
 
