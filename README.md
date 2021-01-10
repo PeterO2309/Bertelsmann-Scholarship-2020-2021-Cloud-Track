@@ -862,3 +862,7 @@ Quotas & Checking on Logs and Alerts
 - Attended the first AZ-series meetup. #sg_azure_certification_prep
 - Watched "Python Object-Oriented Tutorials" by Corey Schafer. https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc 
 
+# D31: Day 31 of #60daysofudacity (Sunday, January 10th, 2021)
+- I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
+- Learnt about Binary Search and Recursion.
+
