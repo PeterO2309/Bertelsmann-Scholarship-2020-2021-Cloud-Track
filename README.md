@@ -866,3 +866,7 @@ Quotas & Checking on Logs and Alerts
 - I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
 - Learnt about Binary Search and Recursion.
 
+# D32: Day 32 of #60daysofudacity (Monday, January 11th, 2021)
+- I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
+- Watched the video on "Bubblesort".
+- Read about Flask from the official documentation. https://flask.palletsprojects.com/en/1.1.x/tutorial/#tutorial
