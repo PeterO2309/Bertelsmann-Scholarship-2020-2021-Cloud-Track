@@ -870,3 +870,7 @@ Quotas & Checking on Logs and Alerts
 - I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
 - Watched the video on "Bubblesort".
 - Read about Flask from the official documentation. https://flask.palletsprojects.com/en/1.1.x/tutorial/#tutorial
+
+# D33: Day 33 of #60daysofudacity (Tuesday, January 12th, 2021)
+- I went through the Lesson 5 projectinstruction. 
+- Took a dive on the project rubrics to understand what the requirement. 
