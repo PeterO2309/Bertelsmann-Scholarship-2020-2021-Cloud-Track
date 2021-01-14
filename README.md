@@ -874,3 +874,13 @@ Quotas & Checking on Logs and Alerts
 # D33: Day 33 of #60daysofudacity (Tuesday, January 12th, 2021)
 - I went through the Lesson 5 projectinstruction. 
 - Took a dive on the project rubrics to understand what the requirement. 
+
+# D34: Day 34 of #60daysofudacity (Wednesday, January 13th, 2021)
+- Studied the Lesson 5 project instruction.
+- Took a dive on the project rubrics to understand what the requirements. 
+
+# D35: Day 35 of #60daysofudacity (Thursday, January 14th, 2021)
+- I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71182844640923
+- Watched the video on "MergeSort and QuickSort".
+- Went through the Lesson 5 project rubrics again. 
+
