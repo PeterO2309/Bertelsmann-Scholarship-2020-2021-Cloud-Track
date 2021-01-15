@@ -884,3 +884,7 @@ Quotas & Checking on Logs and Alerts
 - Watched the video on "MergeSort and QuickSort".
 - Went through the Lesson 5 project rubrics again. 
 
+# D36: Day 36 of #60daysofudacity (Friday, January 15th, 2021)
+- I studied the data structure "LinkedList" and watched videos on the topic by Derek Banas on Youtube.  
+
+
