@@ -887,4 +887,10 @@ Quotas & Checking on Logs and Alerts
 # D36: Day 36 of #60daysofudacity (Friday, January 15th, 2021)
 - I studied the data structure "LinkedList" and watched videos on the topic by Derek Banas on Youtube.  
 
+# D37: Day 37 of #60daysofudacity (Saturday, January 16th, 2021)
+- I studied the studied and watched videos on "Java Recursion and Quicksort algorithm" by Derek Banas on Youtube.
+
+# D38: Day 38 of #60daysofudacity (Sunday, January 17th, 2021)
+-  I studied and watched video on "Big O Notation" by Derek Banas on Youtube.
+
 
