@@ -893,4 +893,9 @@ Quotas & Checking on Logs and Alerts
 # D38: Day 38 of #60daysofudacity (Sunday, January 17th, 2021)
 -  I studied and watched video on "Big O Notation" by Derek Banas on Youtube.
 
+# D39: Day 39 of #60daysofudacity (Monday, January 18th, 2021)
+- I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7118294395/concepts/79034242780923
+- Watched the video on "Maps and Hashing".
+- Filled out the "Cloud Track -Student Stories Challenge". https://docs.google.com/forms/d/e/1FAIpQLSc7XmaYPFOghEEglMuD9D-5zsVaG-6_DLA28n17rmuOwyU3zA/viewform 
+
 
