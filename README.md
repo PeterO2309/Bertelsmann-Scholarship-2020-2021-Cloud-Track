@@ -898,6 +898,9 @@ Quotas & Checking on Logs and Alerts
 - Watched the video on "Maps and Hashing".
 - Filled out the "Cloud Track -Student Stories Challenge". https://docs.google.com/forms/d/e/1FAIpQLSc7XmaYPFOghEEglMuD9D-5zsVaG-6_DLA28n17rmuOwyU3zA/viewform 
 
-# D40: Day 40 of #60daysofudacity (Tuesday, January 18th, 2021)
+# D40: Day 40 of #60daysofudacity (Tuesday, January 19th, 2021)
 - I continued the course "Data Structures and Algorithm" in Python. https://classroom.udacity.com/courses/ud513/lessons/7122604912/concepts/71181250250923
 - Watched the video on "Trees".
+
+# D41: Day 41 of #60daysofudacity (Wednesday, January 20th, 2021)
+- I attended the Day 1 of "Microsoft Azure Virtual Training Day: Fundamentals" event today from 10AM to 1PM UK time. 
