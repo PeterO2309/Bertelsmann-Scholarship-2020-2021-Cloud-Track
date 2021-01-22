@@ -907,3 +907,6 @@ Quotas & Checking on Logs and Alerts
 
 # D42: Day 42 of #60daysofudacity (Thursday, January 21th, 2021)
 - I attended the Day 2 of "Microsoft Azure Virtual Training Day: Fundamentals" event today from 10AM to 1PM UK time. 
+
+# D43: Day 43 of #60daysofudacity (Friday, January 22nd, 2021)
+- I watched this video by Harvard University's CS50 https://www.youtube.com/watch?v=x_c8pTW8ZUc&t=8054s  
