@@ -910,3 +910,7 @@ Quotas & Checking on Logs and Alerts
 
 # D43: Day 43 of #60daysofudacity (Friday, January 22nd, 2021)
 - I watched this video by Harvard University's CS50 https://www.youtube.com/watch?v=x_c8pTW8ZUc&t=8054s  
+
+# D44: Day 44 of #60daysofudacity (Saturday, January 23nd, 2021)
+- I watched this video bon Data structures in Python 
+https://www.youtube.com/watch?v=qp8u-frRAnU&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=4
