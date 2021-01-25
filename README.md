@@ -926,6 +926,9 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 - Read four topics(1, 2, 3, 4 of 8) in the "Introduction to Azure fundamentals". 
 
 :white_check_mark:Introduction https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/introduction
+
 :white_check_mark:What is Cloud Computing https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/what-is-cloud-computing
+
 :white_check_mark:What is Microsoft Azure https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/what-is-microsoft-azure
+
 :white_check_mark:Tour of Azure service https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/tour-of-azure-services 
