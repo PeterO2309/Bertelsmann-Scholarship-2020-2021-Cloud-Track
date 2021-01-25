@@ -920,11 +920,11 @@ https://www.youtube.com/watch?v=qp8u-frRAnU&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=5
 
 # D46: Day 46 of #60daysofudacity (Monday, January 25th, 2021)
-- I started studyng for the Microsoft AZ-900 exam. I ecided to use two resources; The Microsoft Learn and Tim Warner's Youtube videos. 
+# D46: Day 46 of #60daysofudacity (Monday, January 25th, 2021)
+- I started studying for the Microsoft AZ-900 exam. I decided to use two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
 - Today, I watched three episodes in the series (1,2,3 of 69). https://www.youtube.com/watch?v=WuW82bY73rQ 
 - Read four topics(1, 2, 3, 4 of 8) in the "Introduction to Azure fundamentals". 
-- 
-- https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/introduction
-- https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/what-is-cloud-computing
-- https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/what-is-microsoft-azure
-- https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/tour-of-azure-services 
+:white_check_mark:Introduction https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/introduction
+:white_check_mark:What is Cloud Computing https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/what-is-cloud-computing
+:white_check_mark:What is Microsoft Azure https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/what-is-microsoft-azure
+:white_check_mark:Tour of Azure service https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/tour-of-azure-services 
