@@ -924,6 +924,7 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 - I started studying for the Microsoft AZ-900 exam. I decided to use two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
 - Today, I watched three episodes in the series (1,2,3 of 69). https://www.youtube.com/watch?v=WuW82bY73rQ 
 - Read four topics(1, 2, 3, 4 of 8) in the "Introduction to Azure fundamentals". 
+
 :white_check_mark:Introduction https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/introduction
 :white_check_mark:What is Cloud Computing https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/what-is-cloud-computing
 :white_check_mark:What is Microsoft Azure https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/what-is-microsoft-azure
