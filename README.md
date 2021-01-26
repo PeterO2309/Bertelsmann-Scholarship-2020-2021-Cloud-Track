@@ -931,3 +931,23 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 :white_check_mark:What is Microsoft Azure https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/what-is-microsoft-azure
 
 :white_check_mark:Tour of Azure service https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/tour-of-azure-services 
+
+# D47: Day 47 of #60daysofudacity (Tuesday, January 26th, 2021)
+- Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
+- Read three topics(5,7,8  of 8) in the "Introduction to Azure fundamentals". 
+
+:white_check_mark:Get started with Azure accounts https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/get-started-with-azure-accounts
+
+:white_check_mark: Case study introduction https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/case-study-introduction
+
+:white_check_mark: Summary https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/summary
+
+:white_check_mark: Azure Fundamentals part 2: Describe core Azure services https://docs.microsoft.com/en-us/learn/paths/az-900-describe-core-azure-services/
+
+:white_check_mark: Explore Azure Cosmos DB: https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure-cosmos-db
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
