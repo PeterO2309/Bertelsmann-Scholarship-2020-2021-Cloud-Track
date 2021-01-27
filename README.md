@@ -946,6 +946,52 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 
 :white_check_mark: Explore Azure Cosmos DB: https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure-cosmos-db
 
+# D48: Day 48 of #60daysofudacity (Wednesday, January 27th, 2021)
+- Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
+- Read units 1 to 6 of 6 in "Discuss Azure fundamental concepts". 
+:white_check_mark: Describe the benefits of cloud computing https://docs.microsoft.com/en-us/learn/modules/fundamental-azure-concepts/benefits-of-cloud-computing
+
+:white_check_mark: Describe the different categories of cloud services https://docs.microsoft.com/en-us/learn/modules/fundamental-azure-concepts/categories-of-cloud-services
+
+:white_check_mark: Describe the different types of cloud computing https://docs.microsoft.com/en-us/learn/modules/fundamental-azure-concepts/types-of-cloud-computing
+
+- Read units 1 to 8 of 8 in "Describe core Azure architectural components"  
+:white_check_mark: Overview of Azure subscriptions, management groups, resources, and regions https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/overview
+
+:white_check_mark: Azure subscriptions and management groups https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/management-groups-subscriptions
+
+:white_check_mark: Azure resources and Azure Resource Manager https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/resources-resource-manager
+
+:white_check_mark: Azure regions and availability zones https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/regions-availability-zones
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
+:white_check_mark: 
+
 :white_check_mark: 
 
 :white_check_mark: 
