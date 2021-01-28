@@ -970,6 +970,7 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 - Read units 6 to 8 of 8 in "Describe core Azure architectural components" 
 - Read units 1 to 4 of 10 in "Explore Azure database and analytics services". 
 - Completed the two exercises.
+
 :white_check_mark:Exercise - Create a website hosted in Azure https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/exercise-create-website
 
 :white_check_mark: Explore Azure Cosmos DB https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure-cosmos-db
