@@ -979,21 +979,27 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 
 :white_check_mark: Exercise - Create a SQL database https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/exercise-create-sql-database
 
-:white_check_mark: 
 
-:white_check_mark: 
+# D50: Day 50 of #60daysofudacity (Friday, January 29th, 2021)
+- Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
+- Read units 5 to 10 of 10 in "Explore Azure database and analytics services". 
+- Read units 1 to 5 of 9 in "Explore Azure compute services" 
+- Completed the two exercises.
+:white_check_mark: Explore Azure SQL Managed Instance https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure-sql-managed-instance
 
-:white_check_mark: 
+:white_check_mark: Explore Azure database for MySQL https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure-mysql-database
 
-:white_check_mark: 
+:white_check_mark: Explore Azure Database for PostgreSQL https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure-postgresql-database 
 
-:white_check_mark: 
+:white_check_mark: Explore big data and analytics https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure-big-data-analytics
 
-:white_check_mark: 
+:white_check_mark: Overview of Azure compute services https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/overview
 
-:white_check_mark: 
+:white_check_mark: When to use Azure Virtual Machines https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/azure-virtual-machines  
 
-:white_check_mark: 
+:white_check_mark: When to use Azure Container Instances or Azure Kubernetes Service https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/azure-container-services
+
+:white_check_mark: When to use Azure App Service https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/azure-app-services
 
 :white_check_mark: 
 
