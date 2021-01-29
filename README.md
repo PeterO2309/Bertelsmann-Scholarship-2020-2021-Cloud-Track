@@ -984,7 +984,7 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 - Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
 - Read units 5 to 10 of 10 in "Explore Azure database and analytics services". 
 - Read units 1 to 5 of 9 in "Explore Azure compute services" 
-- Completed the two exercises.
+
 :white_check_mark: Explore Azure SQL Managed Instance https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure-sql-managed-instance
 
 :white_check_mark: Explore Azure database for MySQL https://docs.microsoft.com/en-us/learn/modules/azure-database-fundamentals/azure-mysql-database
