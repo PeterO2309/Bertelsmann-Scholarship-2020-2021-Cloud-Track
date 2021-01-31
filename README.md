@@ -1005,12 +1005,29 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 # D51: Day 51 of #60daysofudacity (Saturday, January 30th, 2021)
 - Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
 - Read units 6 to 9 of 9 in "Explore Azure compute services" 
+
 :white_check_mark: When to use Azure Functions https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/azure-functions
 
 :white_check_mark: When to use Windows Virtual Desktop https://docs.microsoft.com/en-us/learn/modules/azure-compute-fundamentals/windows-virtual-desktop
 
-:white_check_mark: 
+# D52: Day 52 of #60daysofudacity (Sunday, January 31st, 2021)
+- Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
+- Read units 1 to 8 of 8 in "Explore Azure Storage services" 
 
-:white_check_mark: 
+:white_check_mark: Azure Storage account fundamentals https://docs.microsoft.com/en-us/learn/modules/azure-storage-fundamentals/azure-storage-accounts
 
-:white_check_mark: 
+:white_check_mark: Disk storage fundamentals https://docs.microsoft.com/en-us/learn/modules/azure-storage-fundamentals/azure-disk-storage
+
+:white_check_mark: Azure Blob storage fundamentals https://docs.microsoft.com/en-us/learn/modules/azure-storage-fundamentals/azure-blob-container-storage 
+
+:white_check_mark: Azure Files fundamentals https://docs.microsoft.com/en-us/learn/modules/azure-storage-fundamentals/azure-file-storage
+
+:white_check_mark: Understanding Blob access tiers https://docs.microsoft.com/en-us/learn/modules/azure-storage-fundamentals/azure-storage-tiers 
+
+:white_check_mark:
+
+:white_check_mark:
+
+:white_check_mark:
+
+:white_check_mark:
