@@ -1024,10 +1024,15 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 
 :white_check_mark: Understanding Blob access tiers https://docs.microsoft.com/en-us/learn/modules/azure-storage-fundamentals/azure-storage-tiers 
 
-:white_check_mark:
 
-:white_check_mark:
+# D53: Day 53 of #60daysofudacity (Monday, February 1st, 2021)
+- Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
+- Read units 1 to 7 of 7 in "Explore Azure networking services" 
 
-:white_check_mark:
+:white_check_mark: Azure Virtual Network fundamentals https://docs.microsoft.com/en-us/learn/modules/azure-networking-fundamentals/azure-virtual-network-fundamentals
 
-:white_check_mark:
+:white_check_mark: Azure Virtual Network settings https://docs.microsoft.com/en-us/learn/modules/azure-networking-fundamentals/azure-virtual-network-settings 
+
+:white_check_mark: Azure VPN Gateway fundamentals https://docs.microsoft.com/en-us/learn/modules/azure-networking-fundamentals/azure-vpn-gateway-fundamentals 
+
+:white_check_mark: Azure ExpressRoute fundamentals https://docs.microsoft.com/en-us/learn/modules/azure-networking-fundamentals/express-route-fundamentals 
