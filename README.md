@@ -1036,3 +1036,43 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 :white_check_mark: Azure VPN Gateway fundamentals https://docs.microsoft.com/en-us/learn/modules/azure-networking-fundamentals/azure-vpn-gateway-fundamentals 
 
 :white_check_mark: Azure ExpressRoute fundamentals https://docs.microsoft.com/en-us/learn/modules/azure-networking-fundamentals/express-route-fundamentals 
+
+
+# D54: Day 54 of #60daysofudacity (Tuesday, February 2nd, 2021)
+- Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
+- Read units 1 to 8 of 8 in "Choose the best AI service for your needs".
+- Read units 1 to 8 of 8 in "Choose the best tools to help organizations build better solutions".
+
+:white_check_mark: Identify the product options	https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/2-identify-product-options
+
+:white_check_mark: Analyze the decision criteria https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/3-analyze-decision-criteria
+
+:white_check_mark: Use Machine Learning for decision support systems https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/4-use-machine-learning
+
+:white_check_mark: Use Cognitive Services for data analysis https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/5-use-cognitive-services
+
+:white_check_mark: Use Bot Service for interactive chat experiences https://docs.microsoft.com/en-us/learn/modules/ai-machine-learning-fundamentals/6-use-bot-services
+
+:white_check_mark: Choose the best tools to help organizations build better solutions https://docs.microsoft.com/en-us/learn/modules/azure-devops-devtest-labs/ 
+
+:white_check_mark: Understand your product options https://docs.microsoft.com/en-us/learn/modules/azure-devops-devtest-labs/2-identify-product-options 
+
+:white_check_mark: Analyze the decision criteria https://docs.microsoft.com/en-us/learn/modules/azure-devops-devtest-labs/3-analyze-decision-criteria 
+
+:white_check_mark: Use Azure DevOps to manage the application development lifecycle https://docs.microsoft.com/en-us/learn/modules/azure-devops-devtest-labs/4-use-azure-devops
+
+:white_check_mark: Use GitHub to contribute to open-source software https://docs.microsoft.com/en-us/learn/modules/azure-devops-devtest-labs/5-use-github 
+
+:white_check_mark: Use Azure DevTest Labs to manage testing environments https://docs.microsoft.com/en-us/learn/modules/azure-devops-devtest-labs/6-use-azure-devtest-labs
+
+:white_check_mark:
+
+:white_check_mark:
+
+:white_check_mark:
+
+:white_check_mark:
+
+:white_check_mark:
+
+:white_check_mark:
