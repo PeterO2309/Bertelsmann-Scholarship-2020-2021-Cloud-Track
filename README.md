@@ -1065,13 +1065,55 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 
 :white_check_mark: Use Azure DevTest Labs to manage testing environments https://docs.microsoft.com/en-us/learn/modules/azure-devops-devtest-labs/6-use-azure-devtest-labs
 
-:white_check_mark:
 
-:white_check_mark:
+# D55: Day 55 of #60daysofudacity (Wednesday, February 3rd, 2021)
+- Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
+- Read units 1 to 8 of 8 in "Choose the best monitoring service for visibility, insight, and outage mitigation ".
+- Read units 1 to 10 of 10 in "Choose the best tools for managing and configuring your Azure environment".
+- Read units 1 to 7 of 7 in "Choose the best Azure serverless technology for your business scenario".
+- Read units 1 to 8 of 8 in "Choose the best Azure IoT service for your application".
 
-:white_check_mark:
+:white_check_mark: Identify your product options https://docs.microsoft.com/en-us/learn/modules/monitoring-fundamentals/2-identify-product-options
 
-:white_check_mark:
+:white_check_mark: Analyze the decision criteria https://docs.microsoft.com/en-us/learn/modules/monitoring-fundamentals/3-analyze-decision-criteria 
+
+:white_check_mark: Use Azure Advisor https://docs.microsoft.com/en-us/learn/modules/monitoring-fundamentals/4-use-azure-advisor
+
+:white_check_mark: Use Azure Monitor https://docs.microsoft.com/en-us/learn/modules/monitoring-fundamentals/5-use-azure-monitor
+
+:white_check_mark: Use Azure Service Health https://docs.microsoft.com/en-us/learn/modules/monitoring-fundamentals/6-use-azure-service-health
+
+:white_check_mark: Identify the product options https://docs.microsoft.com/en-us/learn/modules/management-fundamentals/2-identify-product-options
+
+:white_check_mark: Analyze the decision criteria https://docs.microsoft.com/en-us/learn/modules/management-fundamentals/3-analyze-decision-criteria
+
+:white_check_mark: Use the Azure portal to visually understand and manage your cloud environment https://docs.microsoft.com/en-us/learn/modules/management-fundamentals/4-use-azure-portal
+
+:white_check_mark: Use Azure PowerShell for one-off administrative tasks https://docs.microsoft.com/en-us/learn/modules/management-fundamentals/5-use-azure-powershell 
+
+:white_check_mark: Use the Azure CLI for one-off administrative tasks https://docs.microsoft.com/en-us/learn/modules/management-fundamentals/6-use-azure-cli
+
+:white_check_mark: Use the Azure mobile app to manage Azure on the go https://docs.microsoft.com/en-us/learn/modules/management-fundamentals/7-use-azure-mobile-app 
+
+:white_check_mark: Use ARM templates to deploy an entire cloud infrastructure https://docs.microsoft.com/en-us/learn/modules/management-fundamentals/8-use-azure-resource-manager
+
+:white_check_mark: Identify the product options https://docs.microsoft.com/en-us/learn/modules/serverless-fundamentals/2-identify-product-options
+
+:white_check_mark: Analyze the decision criteria https://docs.microsoft.com/en-us/learn/modules/serverless-fundamentals/3-analyze-decision-criteria
+
+:white_check_mark: Use Azure Functions https://docs.microsoft.com/en-us/learn/modules/serverless-fundamentals/4-use-azure-functions
+
+:white_check_mark: Use Azure Logic Apps https://docs.microsoft.com/en-us/learn/modules/serverless-fundamentals/5-use-azure-logic-apps
+
+:white_check_mark: Analyze the decision criteria https://docs.microsoft.com/en-us/learn/modules/iot-fundamentals/3-analyze-decision-criteria
+
+:white_check_mark: Use IoT Hub https://docs.microsoft.com/en-us/learn/modules/iot-fundamentals/4-use-iot-hub
+
+:white_check_mark: Use IoT Central https://docs.microsoft.com/en-us/learn/modules/iot-fundamentals/5-use-iot-central
+
+:white_check_mark: Use Azure Sphere https://docs.microsoft.com/en-us/learn/modules/iot-fundamentals/6-use-azure-sphere
+
+
 
 :white_check_mark:
 
