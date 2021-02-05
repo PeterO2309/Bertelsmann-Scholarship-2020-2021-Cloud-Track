@@ -1117,7 +1117,7 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 # D56: Day 56 of #60daysofudacity (Thursday, February 4th, 2021)
 - Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
 - Read units 1 to 8 of 8 in "Choose the best monitoring service for visibility, insight, and outage mitigation ".
-- Read units 1 to 8 in "Secure network connectivity on Azure" 
+- Read units 1 to 2 of 9 in "Secure network connectivity on Azure" 
 
 :white_check_mark: Protect against security threats by using Azure Security Center https://docs.microsoft.com/en-us/learn/modules/protect-against-security-threats-azure/2-protect-threats-security-center
 
@@ -1129,5 +1129,24 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 
 
 :white_check_mark: What is defense in depth? https://docs.microsoft.com/en-us/learn/modules/secure-network-connectivity-azure/2-what-is-defense-in-depth
+
+
+# D57: Day 57 of #60daysofudacity (Friday, February 5th, 2021)
+- Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
+- Read units 2 to 4 of 9 in "Secure network connectivity on Azure" 
+
+:white_check_mark: Protect virtual networks by using Azure Firewall https://docs.microsoft.com/en-us/learn/modules/secure-network-connectivity-azure/3-protect-network-azure-firewall 
+
+:white_check_mark: Protect from DDoS attacks by using Azure DDoS Protection https://docs.microsoft.com/en-us/learn/modules/secure-network-connectivity-azure/4-protect-attacks-azure-ddos-protection
+
+:white_check_mark:
+
+:white_check_mark:
+
+:white_check_mark:
+
+:white_check_mark:
+
+:white_check_mark:
 
 :white_check_mark:
