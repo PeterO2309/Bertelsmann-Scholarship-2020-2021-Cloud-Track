@@ -1139,6 +1139,29 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 
 :white_check_mark: Protect from DDoS attacks by using Azure DDoS Protection https://docs.microsoft.com/en-us/learn/modules/secure-network-connectivity-azure/4-protect-attacks-azure-ddos-protection
 
+
+# D58: Day 58 of #60daysofudacity (Saturday, February 6th, 2021)
+- Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
+- Read units 5 to 9 of 9 in "Secure network connectivity on Azure" 
+- Read units 1 to 6 of 6 in "Secure access to your applications by using Azure identity services" 
+- Read units 1 to 3 of 12 in "Build a cloud governance strategy on Azure".
+
+:white_check_mark: Filter network traffic by using network security groups https://docs.microsoft.com/en-us/learn/modules/secure-network-connectivity-azure/5-filter-traffic-network-security-groups
+
+:white_check_mark: Exercise - Configure network access to a VM by using a network security group https://docs.microsoft.com/en-us/learn/modules/secure-network-connectivity-azure/6-configure-access-network-security-group
+
+:white_check_mark: Combine Azure services to create a complete network security solution https://docs.microsoft.com/en-us/learn/modules/secure-network-connectivity-azure/7-combine-services-complete-solution
+
+:white_check_mark: Compare authentication and authorization https://docs.microsoft.com/en-us/learn/modules/secure-access-azure-identity-services/2-compare-authentication-authorization
+
+:white_check_mark: What is Azure Active Directory? https://docs.microsoft.com/en-us/learn/modules/secure-access-azure-identity-services/3-what-is-azure-active-directory
+
+:white_check_mark: What are multifactor authentication and Conditional Access? https://docs.microsoft.com/en-us/learn/modules/secure-access-azure-identity-services/4-what-are-mfa-conditional-access 
+
+:white_check_mark: Accelerate your cloud adoption journey by using the Cloud Adoption Framework for Azure https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/2-accelerate-cloud-adoption-framework
+
+:white_check_mark: Create a subscription governance strategy https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/3-create-subscription-governance-strategy
+
 :white_check_mark:
 
 :white_check_mark:
