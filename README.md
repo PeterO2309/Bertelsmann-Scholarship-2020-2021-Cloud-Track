@@ -1162,14 +1162,20 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 
 :white_check_mark: Create a subscription governance strategy https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/3-create-subscription-governance-strategy
 
-:white_check_mark:
 
-:white_check_mark:
+# D59: Day 59 of #60daysofudacity (Sunday, February 7th, 2021)
+- Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
+- Read units 4 to 12 of 12 in "Build a cloud governance strategy on Azure".
 
-:white_check_mark:
+:white_check_mark: Control access to cloud resources by using Azure role-based access control https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/4-control-access-azure-rbac
 
-:white_check_mark:
+:white_check_mark: Prevent accidental changes by using resource locks https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/5-prevent-changes-resource-locks
 
-:white_check_mark:
+:white_check_mark: Exercise - Protect a storage account from accidental deletion by using a resource lock https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/6-protect-storage-account-resource-lock
 
-:white_check_mark:
+:white_check_mark: Control and audit your resources by using Azure Policy https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/8-control-audit-resources-azure-policy
+
+:white_check_mark: Exercise - Restrict deployments to a specific location by using Azure Policy https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/9-restrict-location-azure-policy
+
+
+:white_check_mark: Govern multiple subscriptions by using Azure Blueprints https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/10-govern-subscriptions-azure-blueprints
