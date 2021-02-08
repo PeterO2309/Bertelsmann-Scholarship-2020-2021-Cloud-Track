@@ -1179,3 +1179,21 @@ https://www.youtube.com/watch?v=ea8BRGxGmlA&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYop
 
 
 :white_check_mark: Govern multiple subscriptions by using Azure Blueprints https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/10-govern-subscriptions-azure-blueprints
+
+
+# D60: Day 60 of #60daysofudacity (Monday, February 8th, 2021)
+- Continued studying for the Microsoft AZ-900 exam using two resources; The Microsoft Learn and Tim Warner's YouTube videos. 
+- Read units 1 to 9 of 9 in "Examine privacy, compliance, and data protection standards on Azure ".
+
+:white_check_mark: Explore compliance terms and requirements https://docs.microsoft.com/en-us/learn/modules/examine-privacy-compliance-data-protection-standards/2-explore-compliance-terms-requirements
+
+:white_check_mark: Access the Microsoft Privacy Statement, the Online Services Terms, and the Data Protection Addendum https://docs.microsoft.com/en-us/learn/modules/examine-privacy-compliance-data-protection-standards/3-access-microsoft-privacy-statement
+
+:white_check_mark: Explore the Trust Center https://docs.microsoft.com/en-us/learn/modules/examine-privacy-compliance-data-protection-standards/4-explore-trust-center
+
+:white_check_mark: Access Azure compliance documentation https://docs.microsoft.com/en-us/learn/modules/examine-privacy-compliance-data-protection-standards/5-access-azure-compliance-documentation
+
+:white_check_mark: What is Azure Government? https://docs.microsoft.com/en-us/learn/modules/examine-privacy-compliance-data-protection-standards/6-what-is-azure-government
+
+:white_check_mark: What is Azure China 21Vianet? https://docs.microsoft.com/en-us/learn/modules/examine-privacy-compliance-data-protection-standards/7-what-is-azure-china-21vianet
+
