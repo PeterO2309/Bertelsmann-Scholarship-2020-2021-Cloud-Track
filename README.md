@@ -181,7 +181,7 @@ az vm open-port --port 80 --resource-group resource-group-west --name linux-vm-w
 1. Use the following command to grab the IP address for the VM from the CLI. ```az vm list-ip-addresses -g resource-group-west -n linux-vm-west```
 screenshot: https://github.com/PeterO2309/Bertelsmann-Scholarship-2020-2021-Cloud-Track/blob/main/Images/day08_08_get_ipaddress_of_vm.PNG
 
-2. Copy a basic Flask app from my local machine to the VM by using the secure copy utility. ```scp -r ./web udacityadmin@52.247.233.222:/home/udacityadmin```
+2. Copy a basic Flask app from my local machine to the VM by using the secure copy utility(http://www.hypexr.org/linux_scp_help.php). ```scp -r ./web udacityadmin@52.247.233.222:/home/udacityadmin```
 
 3. Connect to the VM with ```ssh [username]@[IP Address]```. In this case, ```ssh udacityadmin@52.347.233.222```.
     Run ```ls``` to see the web directory we just uploaded.
